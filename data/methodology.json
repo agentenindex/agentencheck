@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "dimensions": {
+    "agent_opportunity": {
+      "weights": {
+        "variability": 15,
+        "context_dependence": 15,
+        "research_need": 10,
+        "tool_coordination": 15,
+        "exception_rate": 10,
+        "planning_need": 15,
+        "unstructured_data": 10,
+        "multistep": 10
+      },
+      "bands": [
+        [
+          29,
+          "niedrig"
+        ],
+        [
+          54,
+          "mittel"
+        ],
+        [
+          74,
+          "hoch"
+        ],
+        [
+          100,
+          "sehr hoch"
+        ]
+      ]
+    },
+    "implementation_readiness": {
+      "weights": {
+        "digital_data": 15,
+        "data_quality": 10,
+        "api_tool_access": 15,
+        "roles_permissions": 15,
+        "process_owner": 10,
+        "sandbox": 10,
+        "test_cases": 10,
+        "logging_monitoring": 10,
+        "escalation_path": 5
+      },
+      "bands": [
+        [
+          39,
+          "niedrig"
+        ],
+        [
+          69,
+          "mittel"
+        ],
+        [
+          100,
+          "hoch"
+        ]
+      ]
+    }
+  },
+  "autonomy_levels": [
+    [
+      0,
+      "Observe"
+    ],
+    [
+      1,
+      "Recommend"
+    ],
+    [
+      2,
+      "Draft"
+    ],
+    [
+      3,
+      "Act with approval"
+    ],
+    [
+      4,
+      "Act within policy"
+    ],
+    [
+      5,
+      "Exception-based autonomy"
+    ]
+  ],
+  "hard_gates": [
+    [
+      "HG-01",
+      "Kein Prozessowner",
+      "no_production_pilot"
+    ],
+    [
+      "HG-02",
+      "Keine kontrollierbaren Zugriffe",
+      "no_write_agent"
+    ],
+    [
+      "HG-03",
+      "Irreversible kritische Aktion ohne Freigabe",
+      "max_autonomy_2"
+    ],
+    [
+      "HG-04",
+      "Kein Logging bei kritischen Aktionen",
+      "max_autonomy_2"
+    ],
+    [
+      "HG-05",
+      "Keine Testfälle",
+      "no_production_pilot"
+    ],
+    [
+      "HG-06",
+      "Rein deterministischer Prozess",
+      "prefer_automation"
+    ],
+    [
+      "HG-07",
+      "Unklare Daten-/Rechtslage",
+      "expert_review_required"
+    ]
+  ],
+  "business_case": {
+    "baseline_formula": "cases_per_month * minutes_per_case / 60 * loaded_hourly_cost",
+    "default_manual_reduction_scenarios": [
+      0.25,
+      0.5,
+      0.75
+    ]
+  }
+}

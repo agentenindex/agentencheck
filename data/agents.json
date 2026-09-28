@@ -1,0 +1,3965 @@
+{
+  "schema_version": "5.0",
+  "updated": "2026-09-28",
+  "count": 57,
+  "agents": [
+    {
+      "name": "ChatGPT Deep Research",
+      "slug": "chatgpt-deep-research",
+      "provider": "OpenAI",
+      "category": "recherche",
+      "category_name": "Recherche",
+      "type": "Integrierter Recherche-Agent",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Mehrstufige Recherche in ChatGPT mit Web, Dateien, steuerbaren Quellen und zitiertem Bericht.",
+      "access": "In ChatGPT; Umfang und Limits tarifabhängig",
+      "uses": [
+        "Kaufrecherche",
+        "Produktvergleich",
+        "Reiseplanung",
+        "Hintergrundrecherche"
+      ],
+      "strengths": [
+        "Editierbarer Rechercheplan",
+        "Quellenangaben und Links",
+        "Eigene Dateien und verbundene Quellen",
+        "Geeignet für komplexe Vergleiche"
+      ],
+      "checks": [
+        "Quellenqualität bei wichtigen Aussagen selbst prüfen",
+        "Tarifabhängige Nutzungslimits beachten",
+        "Zeitkritische Preise und Verfügbarkeiten an der Originalquelle kontrollieren"
+      ],
+      "sources": [
+        [
+          "OpenAI Help – Deep Research in ChatGPT",
+          "https://help.openai.com/de-de/articles/10500283-deep-research"
+        ],
+        [
+          "OpenAI – Introducing Deep Research",
+          "https://openai.com/index/introducing-deep-research/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0001",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recherche",
+        "provider": "OpenAI",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Integrierter Recherche-Agent",
+        "use_cases": [
+          "Kaufrecherche",
+          "Produktvergleich",
+          "Reiseplanung",
+          "Hintergrundrecherche"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Gemini Deep Research",
+      "slug": "gemini-deep-research",
+      "provider": "Google",
+      "category": "recherche",
+      "category_name": "Recherche",
+      "type": "Integrierter Recherche-Agent",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Agentische Recherche in Gemini mit Google Search und optional eigenen Google-Datenquellen.",
+      "access": "In Gemini; Funktionen und Limits abhängig von Plan und Konto",
+      "uses": [
+        "Reiseplanung",
+        "Kaufrecherche",
+        "Lernen",
+        "Recherche mit eigenen Unterlagen"
+      ],
+      "strengths": [
+        "Google Search als zentrale Webquelle",
+        "Verbindung mit Google-Diensten möglich",
+        "Rechercheplan und strukturierte Berichte",
+        "Export in Google-Umgebungen möglich"
+      ],
+      "checks": [
+        "Verbundene Datenquellen nur mit passenden Berechtigungen verwenden",
+        "Plan- und regionsabhängige Funktionen prüfen",
+        "Quellen vor wichtigen Entscheidungen öffnen"
+      ],
+      "sources": [
+        [
+          "Google Help – Use Deep Research in Gemini Apps",
+          "https://support.google.com/gemini/answer/15719111?hl=en"
+        ],
+        [
+          "Google Workspace Help – Deep Research",
+          "https://support.google.com/mail/answer/17127708?hl=en"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0002",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recherche",
+        "provider": "Google",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Integrierter Recherche-Agent",
+        "use_cases": [
+          "Reiseplanung",
+          "Kaufrecherche",
+          "Lernen",
+          "Recherche mit eigenen Unterlagen"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Claude Research",
+      "slug": "claude-research",
+      "provider": "Anthropic",
+      "category": "recherche",
+      "category_name": "Recherche",
+      "type": "Integrierter Recherche-Agent",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Mehrstufige Recherche in Claude mit Websuche, verbundenem Kontext und überprüfbaren Zitaten.",
+      "access": "Claude Research in unterstützten bezahlten Plänen",
+      "uses": [
+        "Themenanalyse",
+        "Hintergrundrecherche",
+        "Recherche mit Arbeitskontext",
+        "Vergleich komplexer Optionen"
+      ],
+      "strengths": [
+        "Mehrstufige Suchstrategie",
+        "Zitate zur Nachprüfung",
+        "Verbundene Quellen möglich",
+        "Gut für längere analytische Berichte"
+      ],
+      "checks": [
+        "Research ist an geeignete Claude-Pläne gebunden",
+        "Websuche und Connectors müssen passend freigeschaltet sein",
+        "Zitate nicht mit automatischer Richtigkeit gleichsetzen"
+      ],
+      "sources": [
+        [
+          "Anthropic Help – Use Research on Claude",
+          "https://support.claude.com/en/articles/11088861-use-research-on-claude"
+        ],
+        [
+          "Anthropic Help – Google Workspace connectors",
+          "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0003",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recherche",
+        "provider": "Anthropic",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Integrierter Recherche-Agent",
+        "use_cases": [
+          "Themenanalyse",
+          "Hintergrundrecherche",
+          "Recherche mit Arbeitskontext",
+          "Vergleich komplexer Optionen"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Perplexity Deep Research",
+      "slug": "perplexity-deep-research",
+      "provider": "Perplexity",
+      "category": "recherche",
+      "category_name": "Recherche",
+      "type": "Recherchemodus / Agent",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Webzentrierte Tiefenrecherche, die komplexe Fragen in Teilaufgaben zerlegt und zitierte Berichte erstellt.",
+      "access": "Perplexity; kostenloser und erweiterter planabhängiger Zugang",
+      "uses": [
+        "Marktrecherche",
+        "Produktvergleich",
+        "Lernen",
+        "Schnelle Tiefenrecherche"
+      ],
+      "strengths": [
+        "Starker Fokus auf Webquellen",
+        "Zitierte Berichte",
+        "Niedrige Einstiegshürde",
+        "In Perplexity-Umgebungen weiterverarbeitbare Ergebnisse"
+      ],
+      "checks": [
+        "Research Mode und andere Perplexity-Modi unterscheiden",
+        "Planabhängige Limits und Datenquellen prüfen",
+        "Primärquellen bei wichtigen Entscheidungen bevorzugen"
+      ],
+      "sources": [
+        [
+          "Perplexity – Deep Research",
+          "https://www.perplexity.ai/de/hub/products/deep-research"
+        ],
+        [
+          "Perplexity Help – Subscription Plans",
+          "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0004",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recherche",
+        "provider": "Perplexity",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Recherchemodus / Agent",
+        "use_cases": [
+          "Marktrecherche",
+          "Produktvergleich",
+          "Lernen",
+          "Schnelle Tiefenrecherche"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Copilot Researcher",
+      "slug": "microsoft-copilot-researcher",
+      "provider": "Microsoft",
+      "category": "recherche",
+      "category_name": "Recherche",
+      "type": "Enterprise-Recherche-Agent",
+      "audience_short": "Unternehmen",
+      "summary": "Recherche-Agent in Microsoft 365 Copilot für mehrstufige Analysen aus Web und autorisierten Arbeitsdaten.",
+      "access": "Microsoft 365 Copilot; lizenz- und tenantabhängig",
+      "uses": [
+        "Marktanalyse",
+        "Strategierecherche",
+        "Interne Wissensrecherche",
+        "Vorbereitung von Berichten"
+      ],
+      "strengths": [
+        "Microsoft-365-Kontext",
+        "Strukturierte Berichte mit Quellen",
+        "Unternehmensberechtigungen werden berücksichtigt",
+        "Geeignet für wissensintensive Aufgaben"
+      ],
+      "checks": [
+        "Erfordert passenden Microsoft-365-Copilot-Zugang",
+        "Berechtigungen für interne Quellen prüfen",
+        "Ergebnisse bei rechtlich oder finanziell relevanten Fragen verifizieren"
+      ],
+      "sources": [
+        [
+          "Microsoft Support – Researcher in Microsoft 365 Copilot",
+          "https://support.microsoft.com/de-de/microsoft-365-copilot/get-started-with-researcher-in-microsoft-365-copilot"
+        ],
+        [
+          "Microsoft Learn – Researcher Agent",
+          "https://learn.microsoft.com/de-de/microsoft-365/copilot/researcher-agent"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0005",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recherche",
+        "provider": "Microsoft",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise-Recherche-Agent",
+        "use_cases": [
+          "Marktanalyse",
+          "Strategierecherche",
+          "Interne Wissensrecherche",
+          "Vorbereitung von Berichten"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Codex",
+      "slug": "openai-codex",
+      "provider": "OpenAI",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Coding-Agent",
+      "audience_short": "Entwickler & Teams",
+      "summary": "Coding-Agent für Softwareaufgaben in ChatGPT, Editor und Terminal mit mehrstufiger Ausführung.",
+      "access": "Über OpenAI-Produkte; Zugriff abhängig von Plan und Oberfläche",
+      "uses": [
+        "Features implementieren",
+        "Bugs beheben",
+        "Code verstehen",
+        "Tests und Refactoring"
+      ],
+      "strengths": [
+        "Mehrstufige Softwareaufgaben",
+        "Arbeit mit bestehenden Repositories",
+        "Editor- und Terminalnähe",
+        "Delegierbare Aufgaben"
+      ],
+      "checks": [
+        "Codeänderungen vor Merge überprüfen",
+        "Secrets und produktive Zugangsdaten schützen",
+        "Tests und Security-Checks nicht überspringen"
+      ],
+      "sources": [
+        [
+          "OpenAI – Codex",
+          "https://openai.com/de-DE/codex/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0006",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "OpenAI",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Coding-Agent",
+        "use_cases": [
+          "Features implementieren",
+          "Bugs beheben",
+          "Code verstehen",
+          "Tests und Refactoring"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "slug": "claude-code",
+      "provider": "Anthropic",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Coding-Agent",
+      "audience_short": "Entwickler & Teams",
+      "summary": "Agentischer Coding-Assistent für Terminal und Entwicklungsumgebung, der Code lesen, ändern und Befehle ausführen kann.",
+      "access": "Claude Code für unterstützte Anthropic-Zugänge",
+      "uses": [
+        "Codebasis analysieren",
+        "Implementieren",
+        "Debugging",
+        "Terminal-Automation"
+      ],
+      "strengths": [
+        "Terminalnahes Arbeiten",
+        "Großer Arbeitskontext",
+        "Subagents und Hooks",
+        "Geeignet für bestehende Repositories"
+      ],
+      "checks": [
+        "Shell-Befehle und Dateiänderungen kontrollieren",
+        "Berechtigungen minimal halten",
+        "Produktionszugänge nicht unnötig freigeben"
+      ],
+      "sources": [
+        [
+          "Anthropic Docs – Claude Code",
+          "https://docs.anthropic.com/en/docs/claude-code/getting-started"
+        ],
+        [
+          "Anthropic – Claude Code autonomy",
+          "https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0007",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Anthropic",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Coding-Agent",
+        "use_cases": [
+          "Codebasis analysieren",
+          "Implementieren",
+          "Debugging",
+          "Terminal-Automation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "GitHub Copilot Coding Agent",
+      "slug": "github-copilot-coding-agent",
+      "provider": "GitHub",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Coding-Agent",
+      "audience_short": "Entwickler & Teams",
+      "summary": "Asynchroner GitHub-Coding-Agent, der Aufgaben aus dem Repository übernehmen und Änderungen als Pull Request vorbereiten kann.",
+      "access": "GitHub Copilot; plan- und repositoryabhängig",
+      "uses": [
+        "Issues umsetzen",
+        "Kleine Features",
+        "Bugfixes",
+        "Pull-Request-Vorbereitung"
+      ],
+      "strengths": [
+        "Direkte GitHub-Integration",
+        "Asynchron delegierbar",
+        "Review über Pull Requests",
+        "Repository-Kontext"
+      ],
+      "checks": [
+        "Branch- und Repository-Berechtigungen prüfen",
+        "Pull Requests immer reviewen",
+        "CI- und Security-Checks beibehalten"
+      ],
+      "sources": [
+        [
+          "GitHub – Copilot Agents",
+          "https://github.com/features/copilot/agents"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0008",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "GitHub",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Coding-Agent",
+        "use_cases": [
+          "Issues umsetzen",
+          "Kleine Features",
+          "Bugfixes",
+          "Pull-Request-Vorbereitung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Cursor Agent",
+      "slug": "cursor-agent",
+      "provider": "Cursor",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "IDE-Coding-Agent",
+      "audience_short": "Entwickler",
+      "summary": "Coding-Agent in Cursor, der Codebasen durchsuchen, mehrere Dateien ändern und Terminalbefehle ausführen kann.",
+      "access": "Cursor IDE; Planabhängige Agent-Funktionen",
+      "uses": [
+        "Feature-Entwicklung",
+        "Refactoring",
+        "Debugging",
+        "Codebase-Navigation"
+      ],
+      "strengths": [
+        "Direkt in der IDE",
+        "Mehrdatei-Änderungen",
+        "Terminalnutzung",
+        "Schnelle Interaktion mit Code"
+      ],
+      "checks": [
+        "Automatische Änderungen diff-basiert prüfen",
+        "Terminalaktionen beobachten",
+        "Projektgeheimnisse schützen"
+      ],
+      "sources": [
+        [
+          "Cursor Docs – Agent",
+          "https://cursor.com/docs/agent/overview"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0009",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Cursor",
+        "audience": [
+          "entwickler"
+        ],
+        "product_type": "IDE-Coding-Agent",
+        "use_cases": [
+          "Feature-Entwicklung",
+          "Refactoring",
+          "Debugging",
+          "Codebase-Navigation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Windsurf Cascade",
+      "slug": "windsurf-cascade",
+      "provider": "Windsurf",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "IDE-Coding-Agent",
+      "audience_short": "Entwickler",
+      "summary": "Agentische Entwicklungsumgebung in Windsurf für Codeverständnis, Änderungen und mehrstufige Softwarearbeit.",
+      "access": "Windsurf IDE; Funktionsumfang planabhängig",
+      "uses": [
+        "Code schreiben",
+        "Repository verstehen",
+        "Fehler beheben",
+        "Entwicklungsabläufe beschleunigen"
+      ],
+      "strengths": [
+        "IDE-zentrierter Agent",
+        "Kontext über Codebasis",
+        "Werkzeug- und Terminalnutzung",
+        "Agentische Workflows"
+      ],
+      "checks": [
+        "Agentenaktionen vor Commit prüfen",
+        "MCP- oder Tool-Zugänge bewusst begrenzen",
+        "Tests lokal oder in CI bestätigen"
+      ],
+      "sources": [
+        [
+          "Windsurf Docs – Cascade",
+          "https://docs.windsurf.com/windsurf/cascade"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0010",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Windsurf",
+        "audience": [
+          "entwickler"
+        ],
+        "product_type": "IDE-Coding-Agent",
+        "use_cases": [
+          "Code schreiben",
+          "Repository verstehen",
+          "Fehler beheben",
+          "Entwicklungsabläufe beschleunigen"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Replit Agent",
+      "slug": "replit-agent",
+      "provider": "Replit",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "App-Building-Agent",
+      "audience_short": "Privat & Teams",
+      "summary": "Agent zum Erstellen und Weiterentwickeln von Apps und Websites aus natürlicher Sprache in Replit.",
+      "access": "Replit; Plan und Nutzung abhängig vom Produktzugang",
+      "uses": [
+        "Prototypen",
+        "Web-Apps",
+        "Interne Tools",
+        "MVPs"
+      ],
+      "strengths": [
+        "Niedrige Einstiegshürde",
+        "Code, Laufzeit und Deployment in einer Umgebung",
+        "Gut für schnelle Prototypen",
+        "Dialogbasierte Weiterentwicklung"
+      ],
+      "checks": [
+        "Generierten Code vor produktivem Einsatz prüfen",
+        "Kosten und Ressourcenverbrauch beobachten",
+        "Security und Authentifizierung explizit testen"
+      ],
+      "sources": [
+        [
+          "Replit – Agent",
+          "https://replit.com/products/agent"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0011",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Replit",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "App-Building-Agent",
+        "use_cases": [
+          "Prototypen",
+          "Web-Apps",
+          "Interne Tools",
+          "MVPs"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Devin",
+      "slug": "devin",
+      "provider": "Cognition",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Autonomer Software-Agent",
+      "audience_short": "Teams & Unternehmen",
+      "summary": "Software-Engineering-Agent für delegierbare Entwicklungsaufgaben wie Änderungen, Migrationen und Wartungsarbeiten.",
+      "access": "Cognition Devin; kommerzieller Zugang",
+      "uses": [
+        "Backlog-Aufgaben",
+        "Migrationen",
+        "Bugfixes",
+        "Engineering-Automation"
+      ],
+      "strengths": [
+        "Stark delegierbares Arbeiten",
+        "Eigene Entwicklungsumgebung",
+        "Mehrstufige Aufgaben",
+        "Für Team-Backlogs gedacht"
+      ],
+      "checks": [
+        "Aufgaben klar abgrenzen",
+        "Repository- und Systemzugänge minimal halten",
+        "Ergebnisse und Tests menschlich abnehmen"
+      ],
+      "sources": [
+        [
+          "Cognition – Devin",
+          "https://devin.ai/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0012",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Cognition",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Autonomer Software-Agent",
+        "use_cases": [
+          "Backlog-Aufgaben",
+          "Migrationen",
+          "Bugfixes",
+          "Engineering-Automation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Amazon Q Developer",
+      "slug": "amazon-q-developer",
+      "provider": "AWS",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Coding-Agent / Entwicklerassistent",
+      "audience_short": "Entwickler & Unternehmen",
+      "summary": "AWS-Entwicklerassistent mit agentischen Funktionen für Code, Tests, Refactoring und Cloud-nahe Entwicklungsaufgaben.",
+      "access": "AWS / IDE / CLI; Tarif und Funktionen abhängig vom Zugang",
+      "uses": [
+        "AWS-Entwicklung",
+        "Codegenerierung",
+        "Refactoring",
+        "Tests und Fehlersuche"
+      ],
+      "strengths": [
+        "Starke AWS-Nähe",
+        "IDE- und CLI-Integration",
+        "Agentische Entwicklungsaufgaben",
+        "Unternehmenskontext"
+      ],
+      "checks": [
+        "Cloud-Berechtigungen nach Least Privilege vergeben",
+        "Infrastrukturänderungen reviewen",
+        "Kostenwirksame AWS-Aktionen kontrollieren"
+      ],
+      "sources": [
+        [
+          "AWS – Amazon Q Developer",
+          "https://aws.amazon.com/q/developer/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0013",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "AWS",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Coding-Agent / Entwicklerassistent",
+        "use_cases": [
+          "AWS-Entwicklung",
+          "Codegenerierung",
+          "Refactoring",
+          "Tests und Fehlersuche"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Google Jules",
+      "slug": "google-jules",
+      "provider": "Google",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Asynchroner Coding-Agent",
+      "audience_short": "Entwickler",
+      "summary": "Asynchroner Coding-Agent von Google, der GitHub-Repositories in einer eigenen Umgebung bearbeiten und Änderungen vorbereiten kann.",
+      "access": "Jules mit GitHub-Anbindung; Zugang abhängig vom Google-Angebot",
+      "uses": [
+        "Bugfixes",
+        "Features",
+        "Tests",
+        "Repository-Wartung"
+      ],
+      "strengths": [
+        "Asynchron delegierbar",
+        "GitHub-Workflow",
+        "Isolierte Arbeitsumgebung",
+        "Planbasierte Ausführung"
+      ],
+      "checks": [
+        "Repository-Zugriffe begrenzen",
+        "Plan vor Ausführung prüfen",
+        "Änderungen und Testergebnisse reviewen"
+      ],
+      "sources": [
+        [
+          "Google – Jules",
+          "https://jules.google/"
+        ],
+        [
+          "Jules Docs",
+          "https://jules.google/docs"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0014",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Google",
+        "audience": [
+          "entwickler"
+        ],
+        "product_type": "Asynchroner Coding-Agent",
+        "use_cases": [
+          "Bugfixes",
+          "Features",
+          "Tests",
+          "Repository-Wartung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Kiro",
+      "slug": "kiro",
+      "provider": "AWS",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Agentische Entwicklungsumgebung",
+      "audience_short": "Entwickler & Teams",
+      "summary": "Agentische Entwicklungsumgebung mit Specs, automatisierten Workflows, Tools und mehreren Agentenoberflächen.",
+      "access": "Kiro IDE/CLI; Zugang und Kontingente abhängig vom Angebot",
+      "uses": [
+        "Spec-getriebene Entwicklung",
+        "Feature-Umsetzung",
+        "Automatisierung",
+        "Codebase-Arbeit"
+      ],
+      "strengths": [
+        "Specs als Arbeitsgrundlage",
+        "IDE und CLI",
+        "MCP und Tool-Erweiterung",
+        "Agentische Automatisierung"
+      ],
+      "checks": [
+        "Autopilot- und Tool-Rechte bewusst konfigurieren",
+        "Generierte Änderungen prüfen",
+        "Teamstandards in Specs und Reviews verankern"
+      ],
+      "sources": [
+        [
+          "Kiro – IDE",
+          "https://kiro.dev/ide/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0015",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "AWS",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Agentische Entwicklungsumgebung",
+        "use_cases": [
+          "Spec-getriebene Entwicklung",
+          "Feature-Umsetzung",
+          "Automatisierung",
+          "Codebase-Arbeit"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Cline",
+      "slug": "cline",
+      "provider": "Cline",
+      "category": "coding",
+      "category_name": "Coding",
+      "type": "Open-Source Coding-Agent",
+      "audience_short": "Entwickler",
+      "summary": "Open-Source Coding-Agent für IDE und Terminal mit Plan/Act-Arbeitsweise, Tool-Nutzung und MCP-Erweiterungen.",
+      "access": "Open Source; Nutzung mit unterstützten Modellen und APIs",
+      "uses": [
+        "Coding",
+        "Debugging",
+        "Repository-Arbeit",
+        "Tool-gestützte Entwicklung"
+      ],
+      "strengths": [
+        "Open Source",
+        "Hohe Transparenz und Erweiterbarkeit",
+        "MCP-Unterstützung",
+        "Lokale Entwicklungsnähe"
+      ],
+      "checks": [
+        "Externe Modellanbieter und deren Datenschutz prüfen",
+        "Shell- und Tool-Rechte kontrollieren",
+        "API-Kosten beobachten"
+      ],
+      "sources": [
+        [
+          "Cline – Official Site",
+          "https://cline.bot/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0016",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "coding",
+        "provider": "Cline",
+        "audience": [
+          "entwickler"
+        ],
+        "product_type": "Open-Source Coding-Agent",
+        "use_cases": [
+          "Coding",
+          "Debugging",
+          "Repository-Arbeit",
+          "Tool-gestützte Entwicklung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Make AI Agents",
+      "slug": "make-ai-agents",
+      "provider": "Make",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agentenplattform / Builder",
+      "audience_short": "Teams & Unternehmen",
+      "summary": "Visuelle Plattform zum Bauen von KI-Agenten, die Tools und Automationen über zahlreiche Apps orchestrieren.",
+      "access": "Make; Agentenfunktionen je nach Produktstatus und Plan",
+      "uses": [
+        "Business-Automation",
+        "App-übergreifende Aufgaben",
+        "Operations",
+        "Interne Assistenten"
+      ],
+      "strengths": [
+        "Visuelle Automationslogik",
+        "Großes Integrationsökosystem",
+        "Agenten und klassische Workflows kombinierbar",
+        "Nachvollziehbare Tool-Nutzung"
+      ],
+      "checks": [
+        "Tool-Berechtigungen begrenzen",
+        "Kosten durch Agentenläufe beobachten",
+        "Kritische Aktionen mit Freigaben absichern"
+      ],
+      "sources": [
+        [
+          "Make – AI Agents",
+          "https://www.make.com/en/ai-agents"
+        ],
+        [
+          "Make Help – AI Agents",
+          "https://help.make.com/introduction-to-make-ai-agent-new"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0017",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Make",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Agentenplattform / Builder",
+        "use_cases": [
+          "Business-Automation",
+          "App-übergreifende Aufgaben",
+          "Operations",
+          "Interne Assistenten"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "n8n Agents",
+      "slug": "n8n-agents",
+      "provider": "n8n",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agentenplattform / Workflow-Agenten",
+      "audience_short": "Teams & Entwickler",
+      "summary": "Agenten in n8n, die Modelle, Tools und bestehende Workflows zu wiederverwendbaren autonomen Arbeitseinheiten verbinden.",
+      "access": "n8n Cloud oder Self-hosted; Agentenfunktionen abhängig vom Produktstand",
+      "uses": [
+        "Interne Workflows",
+        "Datenverarbeitung",
+        "Support-Automation",
+        "Tool-Orchestrierung"
+      ],
+      "strengths": [
+        "Workflow- und Agentenlogik in einer Plattform",
+        "Self-hosting-Optionen im n8n-Ökosystem",
+        "Viele Integrationen",
+        "Technisch flexibel"
+      ],
+      "checks": [
+        "Self-hosting und Cloud getrennt bewerten",
+        "Credential-Rechte begrenzen",
+        "Fehlerpfade und menschliche Freigaben definieren"
+      ],
+      "sources": [
+        [
+          "n8n – Introducing n8n Agents",
+          "https://blog.n8n.io/introducing-n8n-agents/"
+        ],
+        [
+          "n8n – AI Agents",
+          "https://n8n.io/ai-agents/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0018",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "n8n",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Agentenplattform / Workflow-Agenten",
+        "use_cases": [
+          "Interne Workflows",
+          "Datenverarbeitung",
+          "Support-Automation",
+          "Tool-Orchestrierung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "AI by Zapier (ehemals Zapier Agents)",
+      "slug": "ai-by-zapier",
+      "provider": "Zapier",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agentische Automation",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Zapier bündelt agentische Tool-Nutzung zunehmend in AI by Zapier; das frühere eigenständige Agents-Produkt wird migriert.",
+      "access": "Zapier; Produkt und Migration ändern sich aktuell",
+      "uses": [
+        "SaaS-Automation",
+        "E-Mail- und CRM-Aktionen",
+        "Datenübergaben",
+        "KI-gestützte Workflows"
+      ],
+      "strengths": [
+        "Breites Zapier-App-Ökosystem",
+        "Tool Calling in Automationen",
+        "Niedrige Einstiegshürde",
+        "Gut für SaaS-Prozesse"
+      ],
+      "checks": [
+        "Migration vom alten Agents-Produkt berücksichtigen",
+        "Aktionen mit Schreibrechten absichern",
+        "Plan- und Task-Kosten prüfen"
+      ],
+      "sources": [
+        [
+          "Zapier Help – Migrating from Agents to AI by Zapier",
+          "https://help.zapier.com/hc/en-us/articles/47402591569805-Migrating-from-Agents-to-AI-by-Zapier"
+        ],
+        [
+          "Zapier Help – Add tools to AI by Zapier",
+          "https://help.zapier.com/hc/en-us/articles/45863491098893-Add-tools-to-your-AI-by-Zapier-step"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0019",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Zapier",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Agentische Automation",
+        "use_cases": [
+          "SaaS-Automation",
+          "E-Mail- und CRM-Aktionen",
+          "Datenübergaben",
+          "KI-gestützte Workflows"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Lindy",
+      "slug": "lindy",
+      "provider": "Lindy",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agentenplattform",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Plattform für digitale KI-Mitarbeiter, die Aufgaben wie Terminplanung, Support, Kommunikation und Workflows übernehmen können.",
+      "access": "Lindy Plattform; planabhängig",
+      "uses": [
+        "Terminplanung",
+        "E-Mail-Arbeit",
+        "Support",
+        "Business-Prozesse"
+      ],
+      "strengths": [
+        "No-/Low-Code-Ausrichtung",
+        "Viele vorgefertigte Use Cases",
+        "App-Verbindungen",
+        "Agenten für wiederkehrende Arbeit"
+      ],
+      "checks": [
+        "Berechtigungen für E-Mail und Kalender eng halten",
+        "Automatische Außenkommunikation testen",
+        "Kosten pro Nutzung und Umfang prüfen"
+      ],
+      "sources": [
+        [
+          "Lindy – AI Tools",
+          "https://www.lindy.ai/tools"
+        ],
+        [
+          "Lindy – Use Cases",
+          "https://www.lindy.ai/use-cases"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0020",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Lindy",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Agentenplattform",
+        "use_cases": [
+          "Terminplanung",
+          "E-Mail-Arbeit",
+          "Support",
+          "Business-Prozesse"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Relevance AI Agents",
+      "slug": "relevance-ai-agents",
+      "provider": "Relevance AI",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agentenplattform / Workforce",
+      "audience_short": "Teams & Unternehmen",
+      "summary": "Plattform zum Bauen und Orchestrieren spezialisierter KI-Agenten und Agenten-Teams für Geschäftsprozesse.",
+      "access": "Relevance AI Plattform; planabhängig",
+      "uses": [
+        "Sales Ops",
+        "Research",
+        "Support",
+        "Multi-Agent-Workflows"
+      ],
+      "strengths": [
+        "Agenten-Teams und Handoffs",
+        "Visueller Builder",
+        "Tool- und Integrationsunterstützung",
+        "Unternehmensprozesse im Fokus"
+      ],
+      "checks": [
+        "Agentenrollen klar abgrenzen",
+        "Handoffs und Fehlerpfade testen",
+        "Datenzugriff pro Agent minimieren"
+      ],
+      "sources": [
+        [
+          "Relevance AI – Agents",
+          "https://relevanceai.com/agents"
+        ],
+        [
+          "Relevance AI – Workforce",
+          "https://relevanceai.com/workforce"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0021",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Relevance AI",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Agentenplattform / Workforce",
+        "use_cases": [
+          "Sales Ops",
+          "Research",
+          "Support",
+          "Multi-Agent-Workflows"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Relay.app",
+      "slug": "relay-app",
+      "provider": "Relay.app",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agenten- und Workflow-Plattform",
+      "audience_short": "Teams & KMU",
+      "summary": "Plattform für KI-gestützte Workflows und Agenten mit Fokus auf nachvollziehbare Business-Automation.",
+      "access": "Relay.app; planabhängig",
+      "uses": [
+        "Operations",
+        "CRM-Prozesse",
+        "Kommunikation",
+        "Freigabe-Workflows"
+      ],
+      "strengths": [
+        "Klare Workflow-Struktur",
+        "Human-in-the-loop gut integrierbar",
+        "SaaS-Verbindungen",
+        "Geeignet für kleine Teams"
+      ],
+      "checks": [
+        "Agentische und deterministische Schritte bewusst trennen",
+        "Schreibaktionen mit Freigaben versehen",
+        "Integrationsrechte prüfen"
+      ],
+      "sources": [
+        [
+          "Relay.app Docs – Getting Started",
+          "https://docs.relay.app/getting-started/readme"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0022",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Relay.app",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Agenten- und Workflow-Plattform",
+        "use_cases": [
+          "Operations",
+          "CRM-Prozesse",
+          "Kommunikation",
+          "Freigabe-Workflows"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Gumloop Agents",
+      "slug": "gumloop-agents",
+      "provider": "Gumloop",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Agentenplattform",
+      "audience_short": "Teams & Unternehmen",
+      "summary": "Gumloop-Agenten verbinden Kontext, Tools, MCP und bestehende Automationsflows zu dialog- oder ereignisgesteuerten Agenten.",
+      "access": "Gumloop; planabhängig",
+      "uses": [
+        "Research-Automation",
+        "Operations",
+        "Interne Tools",
+        "App-übergreifende Workflows"
+      ],
+      "strengths": [
+        "MCP- und Tool-Anbindung",
+        "Verknüpfung mit bestehenden Flows",
+        "Subagenten möglich",
+        "Business-Automation"
+      ],
+      "checks": [
+        "Tool- und MCP-Berechtigungen auditieren",
+        "Automatische Aktionen in Testumgebung prüfen",
+        "Fehler- und Eskalationswege definieren"
+      ],
+      "sources": [
+        [
+          "Gumloop – Announcing Agents",
+          "https://www.gumloop.com/blog/announcing-gumloop-agents"
+        ],
+        [
+          "Gumloop – Subagents",
+          "https://www.gumloop.com/blog/subagents"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0023",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Gumloop",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Agentenplattform",
+        "use_cases": [
+          "Research-Automation",
+          "Operations",
+          "Interne Tools",
+          "App-übergreifende Workflows"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Gumball",
+      "slug": "gumball",
+      "provider": "Gumloop",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Persönlicher Arbeits-Agent",
+      "audience_short": "Privat & Teams",
+      "summary": "Persönlicher KI-Agent von Gumloop, der verbundene Apps und spezialisierte Skills oder Agenten zur Aufgabenerledigung nutzen kann.",
+      "access": "Gumloop/Gumball; Verfügbarkeit abhängig vom Produktzugang",
+      "uses": [
+        "Persönliche Arbeitsorganisation",
+        "Delegation",
+        "App-übergreifende Aufgaben",
+        "Kommunikation"
+      ],
+      "strengths": [
+        "Eine zentrale Agentenoberfläche",
+        "Nutzung verbundener Apps",
+        "Delegation an Skills",
+        "Für alltägliche Wissensarbeit gedacht"
+      ],
+      "checks": [
+        "Persönliche Konten nur gezielt verbinden",
+        "Schreib- und Sendeaktionen überprüfen",
+        "Datenschutz der verbundenen Dienste beachten"
+      ],
+      "sources": [
+        [
+          "Gumloop – Meet Gumball",
+          "https://www.gumloop.com/blog/meet-gumball"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0024",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Gumloop",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Persönlicher Arbeits-Agent",
+        "use_cases": [
+          "Persönliche Arbeitsorganisation",
+          "Delegation",
+          "App-übergreifende Aufgaben",
+          "Kommunikation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Copilot Studio",
+      "slug": "microsoft-copilot-studio",
+      "provider": "Microsoft",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Enterprise Agent Builder",
+      "audience_short": "Unternehmen",
+      "summary": "Microsoft-Plattform zum Erstellen, Verbinden, Veröffentlichen und Verwalten von Copilot- und autonomen Agenten.",
+      "access": "Microsoft Copilot Studio; kommerzielle Lizenzierung",
+      "uses": [
+        "Interne Assistenten",
+        "Customer Service",
+        "Business-Prozesse",
+        "Microsoft-365-Automation"
+      ],
+      "strengths": [
+        "Microsoft-Ökosystem",
+        "Low-Code plus Erweiterbarkeit",
+        "Connectoren und Aktionen",
+        "Governance-orientierte Bereitstellung"
+      ],
+      "checks": [
+        "Dataverse- und Connector-Rechte prüfen",
+        "Autonome Trigger kontrollieren",
+        "Lizenzierung und Verbrauchsmodelle kalkulieren"
+      ],
+      "sources": [
+        [
+          "Microsoft – Copilot Studio",
+          "https://www.microsoft.com/de-de/microsoft-copilot/microsoft-copilot-studio"
+        ],
+        [
+          "Microsoft Learn – Agents overview",
+          "https://learn.microsoft.com/de-de/microsoft-copilot-studio/agents-overview"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0025",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Microsoft",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Agent Builder",
+        "use_cases": [
+          "Interne Assistenten",
+          "Customer Service",
+          "Business-Prozesse",
+          "Microsoft-365-Automation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "IBM watsonx Orchestrate",
+      "slug": "ibm-watsonx-orchestrate",
+      "provider": "IBM",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Enterprise Agent Orchestration",
+      "audience_short": "Unternehmen",
+      "summary": "Enterprise-Plattform zum Erstellen, Orchestrieren und Governieren von KI-Agenten mit Tools, APIs und Frameworks.",
+      "access": "IBM watsonx Orchestrate; Enterprise-Angebot",
+      "uses": [
+        "Unternehmensprozesse",
+        "Agenten-Orchestrierung",
+        "HR und Operations",
+        "Tool-Integration"
+      ],
+      "strengths": [
+        "No-Code und Pro-Code",
+        "Enterprise-Governance",
+        "Breite Tool- und API-Anbindung",
+        "Orchestrierung mehrerer Agenten"
+      ],
+      "checks": [
+        "Governance-Rollen definieren",
+        "Toolzugriffe und Credentials auditieren",
+        "Observability und Eskalation konfigurieren"
+      ],
+      "sources": [
+        [
+          "IBM – watsonx Orchestrate AI Agent Builder",
+          "https://www.ibm.com/de-de/products/watsonx-orchestrate/ai-agent-builder"
+        ],
+        [
+          "IBM – watsonx Orchestrate",
+          "https://www.ibm.com/de-de/products/watsonx-orchestrate"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0026",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "IBM",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Agent Orchestration",
+        "use_cases": [
+          "Unternehmensprozesse",
+          "Agenten-Orchestrierung",
+          "HR und Operations",
+          "Tool-Integration"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Oracle AI Agent Studio",
+      "slug": "oracle-ai-agent-studio",
+      "provider": "Oracle",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Enterprise Agent Builder",
+      "audience_short": "Unternehmen",
+      "summary": "Agentenstudio für Oracle Fusion Applications zum Erstellen, Erweitern und Orchestrieren von KI-Agenten in Geschäftsprozessen.",
+      "access": "Oracle Fusion Applications / Enterprise-Angebot",
+      "uses": [
+        "ERP-Prozesse",
+        "HR",
+        "Finance",
+        "Supply Chain"
+      ],
+      "strengths": [
+        "Tiefe Oracle-Fusion-Integration",
+        "Business-Kontext",
+        "Multi-Agent- und Tool-Funktionen",
+        "Governance im Enterprise-Umfeld"
+      ],
+      "checks": [
+        "Fusion-Berechtigungen prüfen",
+        "kritische Finanz- oder HR-Aktionen mit Human-in-the-loop absichern",
+        "MCP/A2A-Verbindungen kontrollieren"
+      ],
+      "sources": [
+        [
+          "Oracle Docs – AI Agent Studio overview",
+          "https://docs.oracle.com/en/cloud/saas/fusion-ai/26b/aiaas/overview.html"
+        ],
+        [
+          "Oracle – Fusion AI",
+          "https://www.oracle.com/de/applications/fusion-ai/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0027",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Oracle",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Agent Builder",
+        "use_cases": [
+          "ERP-Prozesse",
+          "HR",
+          "Finance",
+          "Supply Chain"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "UiPath Agents",
+      "slug": "uipath-agents",
+      "provider": "UiPath",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Enterprise Agents / Agentic Automation",
+      "audience_short": "Unternehmen",
+      "summary": "KI-Agenten in UiPath, die planen und handeln und dabei RPA-Roboter, Menschen und Unternehmenswerkzeuge einbeziehen können.",
+      "access": "UiPath Platform; Enterprise-Zugang",
+      "uses": [
+        "Backoffice",
+        "Dokumentenprozesse",
+        "Operations",
+        "Agentic Automation"
+      ],
+      "strengths": [
+        "Verbindung von Agenten und RPA",
+        "Human-in-the-loop",
+        "Enterprise-Automation",
+        "Bestehendes UiPath-Ökosystem"
+      ],
+      "checks": [
+        "Agentische Entscheidungen von deterministischen RPA-Schritten trennen",
+        "Eskalationen definieren",
+        "Zugriffe auf produktive Systeme begrenzen"
+      ],
+      "sources": [
+        [
+          "UiPath Docs – About Agents",
+          "https://docs.uipath.com/agents/automation-cloud/latest/user-guide/about-uipath-agents"
+        ],
+        [
+          "UiPath – Agentic Automation",
+          "https://www.uipath.com/automation/agentic-automation"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0028",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "UiPath",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Agents / Agentic Automation",
+        "use_cases": [
+          "Backoffice",
+          "Dokumentenprozesse",
+          "Operations",
+          "Agentic Automation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Salesforce Agentforce",
+      "slug": "salesforce-agentforce",
+      "provider": "Salesforce",
+      "category": "unternehmen",
+      "category_name": "Enterprise",
+      "type": "Enterprise Agent Platform",
+      "audience_short": "Unternehmen",
+      "summary": "Salesforce-Plattform zum Bauen und Betreiben von Agenten, die CRM-Daten, Geschäftslogik und Aktionen nutzen.",
+      "access": "Salesforce Agentforce; kommerzielles Enterprise-Angebot",
+      "uses": [
+        "Customer Service",
+        "Sales",
+        "CRM-Automation",
+        "Mitarbeiterprozesse"
+      ],
+      "strengths": [
+        "Tiefe Salesforce-Integration",
+        "CRM- und Datenkontext",
+        "Agent Builder und Governance",
+        "Breites Enterprise-Einsatzfeld"
+      ],
+      "checks": [
+        "CRM-Datenzugriffe nach Rolle begrenzen",
+        "Autonome Aktionen testen",
+        "Kosten- und Verbrauchsmodell prüfen"
+      ],
+      "sources": [
+        [
+          "Salesforce – Agentforce",
+          "https://www.salesforce.com/de/agentforce/"
+        ],
+        [
+          "Salesforce – How Agentforce works",
+          "https://www.salesforce.com/agentforce/how-it-works/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0029",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Salesforce",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Agent Platform",
+        "use_cases": [
+          "Customer Service",
+          "Sales",
+          "CRM-Automation",
+          "Mitarbeiterprozesse"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "SAP Joule Agents",
+      "slug": "sap-joule-agents",
+      "provider": "SAP",
+      "category": "unternehmen",
+      "category_name": "Enterprise",
+      "type": "Business Agents",
+      "audience_short": "Unternehmen",
+      "summary": "SAP-Geschäftsagenten, die auf Unternehmenskontext, SAP-Daten und Geschäftsprozesse zugeschnitten sind.",
+      "access": "SAP Joule / unterstützte SAP-Lösungen; lizenzabhängig",
+      "uses": [
+        "Finance",
+        "HR",
+        "Supply Chain",
+        "SAP-Prozessautomation"
+      ],
+      "strengths": [
+        "SAP-Geschäftskontext",
+        "Integration in Kernprozesse",
+        "Unternehmensdaten und semantischer Kontext",
+        "Agenten-Zusammenarbeit"
+      ],
+      "checks": [
+        "Geschäftsrollen und Datenrechte prüfen",
+        "Kritische Buchungen oder Entscheidungen menschlich freigeben",
+        "Verfügbarkeit je SAP-Produkt kontrollieren"
+      ],
+      "sources": [
+        [
+          "SAP – AI Agents",
+          "https://www.sap.com/germany/products/artificial-intelligence/ai-agents.html"
+        ],
+        [
+          "SAP Help – Joule Agents overview",
+          "https://help.sap.com/docs/joule/capabilities-guide/joule-agents-overview"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0030",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "SAP",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Business Agents",
+        "use_cases": [
+          "Finance",
+          "HR",
+          "Supply Chain",
+          "SAP-Prozessautomation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Atlassian Rovo Agents",
+      "slug": "atlassian-rovo-agents",
+      "provider": "Atlassian",
+      "category": "unternehmen",
+      "category_name": "Enterprise",
+      "type": "Workplace Agents",
+      "audience_short": "Teams & Unternehmen",
+      "summary": "Konfigurierbare KI-Teamkollegen in Atlassian Rovo für Jira-, Confluence- und verbundene Arbeitsprozesse.",
+      "access": "Atlassian Rovo; produkt- und planabhängig",
+      "uses": [
+        "Projektarbeit",
+        "Wissensmanagement",
+        "Ticket- und Dokumentenarbeit",
+        "Team-Automation"
+      ],
+      "strengths": [
+        "Jira- und Confluence-Kontext",
+        "Konfigurierbare Agentenrollen",
+        "Atlassian-Berechtigungen",
+        "Integration in Teamworkflows"
+      ],
+      "checks": [
+        "Agentenrechte an bestehende Berechtigungen koppeln",
+        "Automationsaktionen testen",
+        "Verbundene Apps separat absichern"
+      ],
+      "sources": [
+        [
+          "Atlassian Support – Rovo Agents",
+          "https://support.atlassian.com/rovo/docs/agents/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0031",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Atlassian",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Workplace Agents",
+        "use_cases": [
+          "Projektarbeit",
+          "Wissensmanagement",
+          "Ticket- und Dokumentenarbeit",
+          "Team-Automation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Glean Agents",
+      "slug": "glean-agents",
+      "provider": "Glean",
+      "category": "unternehmen",
+      "category_name": "Enterprise",
+      "type": "Enterprise Knowledge Agents",
+      "audience_short": "Unternehmen",
+      "summary": "Unternehmensagenten auf Basis des Glean-Wissens- und Berechtigungskontexts für Recherche und Arbeitsabläufe.",
+      "access": "Glean Enterprise; kommerzieller Zugang",
+      "uses": [
+        "Enterprise Search",
+        "Wissensarbeit",
+        "Interne Workflows",
+        "Mitarbeiterassistenz"
+      ],
+      "strengths": [
+        "Unternehmensweiter Wissenskontext",
+        "Berechtigungsorientiert",
+        "Auto- und Workflow-Modi",
+        "Tools und Aktionen"
+      ],
+      "checks": [
+        "Datenquellen und Indizierung prüfen",
+        "Berechtigungsmodell regelmäßig auditieren",
+        "Agentische Aktionen separat freigeben"
+      ],
+      "sources": [
+        [
+          "Glean Docs – Agents",
+          "https://docs.glean.com/agents"
+        ],
+        [
+          "Glean Docs – Agents Introduction",
+          "https://docs.glean.com/agents/introduction"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0032",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Glean",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Knowledge Agents",
+        "use_cases": [
+          "Enterprise Search",
+          "Wissensarbeit",
+          "Interne Workflows",
+          "Mitarbeiterassistenz"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Notion Agent",
+      "slug": "notion-agent",
+      "provider": "Notion",
+      "category": "unternehmen",
+      "category_name": "Produktivität",
+      "type": "Workspace Agent",
+      "audience_short": "Privat & Teams",
+      "summary": "In Notion integrierter Agent, der Seiten und Datenbanken mit dem Kontext des eigenen Workspace bearbeiten kann.",
+      "access": "Notion; KI-/Agentenzugang planabhängig",
+      "uses": [
+        "Dokumente erstellen",
+        "Datenbanken pflegen",
+        "Workspace-Recherche",
+        "Wissensorganisation"
+      ],
+      "strengths": [
+        "Direkt im Notion-Workspace",
+        "Nutzt bestehenden Kontext",
+        "Kann Inhalte bearbeiten",
+        "Niedrige Einstiegshürde"
+      ],
+      "checks": [
+        "Änderungen an wichtigen Datenbanken kontrollieren",
+        "Berechtigungen des eigenen Notion-Kontos beachten",
+        "Sensible Inhalte nur im vorgesehenen Workspace verarbeiten"
+      ],
+      "sources": [
+        [
+          "Notion Help – Notion Agent",
+          "https://www.notion.com/de/help/notion-agent"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0033",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Notion",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Workspace Agent",
+        "use_cases": [
+          "Dokumente erstellen",
+          "Datenbanken pflegen",
+          "Workspace-Recherche",
+          "Wissensorganisation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Notion Custom Agents",
+      "slug": "notion-custom-agents",
+      "provider": "Notion",
+      "category": "unternehmen",
+      "category_name": "Produktivität",
+      "type": "Custom Workplace Agents",
+      "audience_short": "Teams & Unternehmen",
+      "summary": "Anpassbare Notion-Agenten für wiederkehrende Aufgaben mit eigenen Berechtigungen, Zeitplänen und verbundenen Quellen.",
+      "access": "Notion Custom Agents; plan- und rolloutabhängig",
+      "uses": [
+        "Wiederkehrende Reports",
+        "Wissenspflege",
+        "Team-Automation",
+        "Informationssynthese"
+      ],
+      "strengths": [
+        "Agenten mit klarer Rolle",
+        "Wiederkehrende Ausführung",
+        "Notion-Kontext",
+        "Verbundene Dienste möglich"
+      ],
+      "checks": [
+        "Agentenberechtigungen separat prüfen",
+        "Zeitpläne und automatische Änderungen überwachen",
+        "Externe Connectors auf Datenscope begrenzen"
+      ],
+      "sources": [
+        [
+          "Notion – Custom Agents",
+          "https://www.notion.com/de/product/agents"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0034",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Notion",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Custom Workplace Agents",
+        "use_cases": [
+          "Wiederkehrende Reports",
+          "Wissenspflege",
+          "Team-Automation",
+          "Informationssynthese"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "ServiceNow AI Agents",
+      "slug": "servicenow-ai-agents",
+      "provider": "ServiceNow",
+      "category": "unternehmen",
+      "category_name": "Enterprise",
+      "type": "Enterprise AI Agents",
+      "audience_short": "Unternehmen",
+      "summary": "ServiceNow-Agenten für IT-, HR- und Kundenprozesse innerhalb der Now Platform mit zentraler Steuerung und Governance.",
+      "access": "ServiceNow; Enterprise-Produkt und Lizenzierung",
+      "uses": [
+        "IT Service Management",
+        "HR",
+        "Customer Service",
+        "Workflow-Automation"
+      ],
+      "strengths": [
+        "Tiefe Now-Platform-Integration",
+        "Enterprise-Workflows",
+        "Zentrale Agentensteuerung",
+        "Geschäftsprozessnähe"
+      ],
+      "checks": [
+        "Produktive Aktionen mit Governance absichern",
+        "Rollen und ACLs prüfen",
+        "Agentenleistung und Eskalation überwachen"
+      ],
+      "sources": [
+        [
+          "ServiceNow – AI Agents",
+          "https://www.servicenow.com/products/ai-agents.html"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0035",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "ServiceNow",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise AI Agents",
+        "use_cases": [
+          "IT Service Management",
+          "HR",
+          "Customer Service",
+          "Workflow-Automation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "ServiceNow Otto",
+      "slug": "servicenow-otto",
+      "provider": "ServiceNow",
+      "category": "unternehmen",
+      "category_name": "Enterprise",
+      "type": "Enterprise AI Experience / Agent",
+      "audience_short": "Unternehmen",
+      "summary": "ServiceNow Otto ist eine einheitliche KI-Arbeitsoberfläche, die Anfragen über Agenten, Systeme und Workflows hinweg orchestriert.",
+      "access": "ServiceNow Otto; Enterprise-Angebot",
+      "uses": [
+        "Mitarbeiterassistenz",
+        "Serviceprozesse",
+        "Workflow-Orchestrierung",
+        "Unternehmenssuche"
+      ],
+      "strengths": [
+        "Einheitliche Oberfläche",
+        "ServiceNow-Prozessnähe",
+        "Routing über Systeme und Agenten",
+        "Für End-to-End-Aufgaben gedacht"
+      ],
+      "checks": [
+        "Verfügbare Aktionen je Rolle prüfen",
+        "Datenzugriffe und Identität sauber konfigurieren",
+        "Autonome Prozessschritte testen"
+      ],
+      "sources": [
+        [
+          "ServiceNow – Otto",
+          "https://www.servicenow.com/de/platform/otto.html"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0036",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "ServiceNow",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise AI Experience / Agent",
+        "use_cases": [
+          "Mitarbeiterassistenz",
+          "Serviceprozesse",
+          "Workflow-Orchestrierung",
+          "Unternehmenssuche"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Copilot Analyst",
+      "slug": "microsoft-copilot-analyst",
+      "provider": "Microsoft",
+      "category": "unternehmen",
+      "category_name": "Analyse",
+      "type": "Datenanalyse-Agent",
+      "audience_short": "Unternehmen",
+      "summary": "Analyse-Agent in Microsoft 365 Copilot für Daten, Trends, Ausreißer, Berichte und Visualisierungen.",
+      "access": "Microsoft 365 Copilot; lizenzabhängig",
+      "uses": [
+        "Datenanalyse",
+        "Trendprüfung",
+        "Reporting",
+        "Entscheidungsvorbereitung"
+      ],
+      "strengths": [
+        "Microsoft-365-Arbeitskontext",
+        "Geeignet für Tabellen und Geschäftsdaten",
+        "Berichte und Visualisierungen",
+        "Agentischer Analyseablauf"
+      ],
+      "checks": [
+        "Datenqualität vor Analyse prüfen",
+        "Statistische Schlussfolgerungen fachlich validieren",
+        "Sensible Daten nur in freigegebenen Tenants verwenden"
+      ],
+      "sources": [
+        [
+          "Microsoft Support – Analyst in Microsoft 365 Copilot",
+          "https://support.microsoft.com/de-de/microsoft-365-copilot/get-started-with-analyst-in-microsoft-365-copilot"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0037",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Microsoft",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Datenanalyse-Agent",
+        "use_cases": [
+          "Datenanalyse",
+          "Trendprüfung",
+          "Reporting",
+          "Entscheidungsvorbereitung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Perplexity Computer",
+      "slug": "perplexity-computer",
+      "provider": "Perplexity",
+      "category": "unternehmen",
+      "category_name": "Produktivität",
+      "type": "General-Purpose Digital Worker",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Allgemeiner digitaler Arbeitsagent von Perplexity für Recherche, Browseraufgaben, wiederkehrende Jobs und Artefakterstellung.",
+      "access": "Perplexity Computer; planabhängig",
+      "uses": [
+        "Recherche",
+        "Browser-Automation",
+        "Reports",
+        "Wiederkehrende Beobachtung"
+      ],
+      "strengths": [
+        "Generalistische Aufgabenbearbeitung",
+        "Subagenten",
+        "Hintergrund- und wiederkehrende Aufgaben",
+        "Erzeugung verschiedener Arbeitsartefakte"
+      ],
+      "checks": [
+        "Autonome Webaktionen kontrollieren",
+        "Verbundene Konten minimal berechtigen",
+        "Ergebnisse und externe Aktionen nachvollziehen"
+      ],
+      "sources": [
+        [
+          "Perplexity – Computer",
+          "https://www.perplexity.ai/de/products/computer"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0038",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Perplexity",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "General-Purpose Digital Worker",
+        "use_cases": [
+          "Recherche",
+          "Browser-Automation",
+          "Reports",
+          "Wiederkehrende Beobachtung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Intercom Fin",
+      "slug": "intercom-fin",
+      "provider": "Intercom",
+      "category": "service-sales",
+      "category_name": "Kundenservice",
+      "type": "Customer Service Agent",
+      "audience_short": "Unternehmen",
+      "summary": "KI-Agent von Intercom für Kundenservice, der Fragen beantwortet und definierte Aktionen oder Übergaben ausführen kann.",
+      "access": "Intercom Fin; kommerzielles Service-Angebot",
+      "uses": [
+        "Kundenservice",
+        "FAQ-Automation",
+        "Support-Triage",
+        "Service-Aktionen"
+      ],
+      "strengths": [
+        "Customer-Service-Fokus",
+        "Mehrkanalfähigkeit",
+        "Handover an Menschen",
+        "Wissen und Aktionen kombinierbar"
+      ],
+      "checks": [
+        "Supportwissen aktuell halten",
+        "Eskalationsregeln testen",
+        "Kundenbezogene Aktionen und Datenschutz prüfen"
+      ],
+      "sources": [
+        [
+          "Intercom Help – Was ist Fin?",
+          "https://www.intercom.com/help/de/articles/9515824-was-ist-fin"
+        ],
+        [
+          "Intercom Help – Fin AI Agent erklärt",
+          "https://www.intercom.com/help/de/articles/7120684-fin-ai-agent-erklart"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0039",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "Intercom",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Customer Service Agent",
+        "use_cases": [
+          "Kundenservice",
+          "FAQ-Automation",
+          "Support-Triage",
+          "Service-Aktionen"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Zendesk AI Agents",
+      "slug": "zendesk-ai-agents",
+      "provider": "Zendesk",
+      "category": "service-sales",
+      "category_name": "Kundenservice",
+      "type": "Customer Service Agents",
+      "audience_short": "Unternehmen",
+      "summary": "Zendesk-Agenten für automatisierte Kundenkommunikation über Servicekanäle mit generativen Abläufen und Aktionen.",
+      "access": "Zendesk AI Agents; plan- und produktabhängig",
+      "uses": [
+        "Ticket-Automation",
+        "Messaging",
+        "E-Mail-Support",
+        "Serviceaktionen"
+      ],
+      "strengths": [
+        "Direkte Zendesk-Integration",
+        "Mehrere Servicekanäle",
+        "Generative Flows",
+        "Handover in bestehende Supportprozesse"
+      ],
+      "checks": [
+        "Wissensbasis und Aktionen testen",
+        "Kanalabhängige Funktionen prüfen",
+        "Automatisierte Antworten regelmäßig qualitativ auditieren"
+      ],
+      "sources": [
+        [
+          "Zendesk Help – Überblick über AI Agents",
+          "https://support.zendesk.com/hc/de/articles/6970583409690-%C3%9Cberblick-%C3%BCber-AI-Agents"
+        ],
+        [
+          "Zendesk – AI Agents",
+          "https://www.zendesk.com/service/ai/ai-agents/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0040",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "Zendesk",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Customer Service Agents",
+        "use_cases": [
+          "Ticket-Automation",
+          "Messaging",
+          "E-Mail-Support",
+          "Serviceaktionen"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Forethought AI Agents by Zendesk",
+      "slug": "forethought-ai-agents-zendesk",
+      "provider": "Zendesk / Forethought",
+      "category": "service-sales",
+      "category_name": "Kundenservice",
+      "type": "Customer Service Agents",
+      "audience_short": "Unternehmen",
+      "summary": "Nach der Forethought-Übernahme in Zendesk integrierte Agenten für Supportautomation, Assistenz und Serviceanalyse.",
+      "access": "Zendesk Add-on / Angebot; Verfügbarkeit prüfen",
+      "uses": [
+        "Support-Automation",
+        "Intent-Erkennung",
+        "Agent Assist",
+        "Service-Insights"
+      ],
+      "strengths": [
+        "Erprobter Servicefokus",
+        "Zendesk-Integration",
+        "Mehrere Supportfunktionen",
+        "Auch für unterstützte andere Umgebungen vorgesehen"
+      ],
+      "checks": [
+        "Produktintegration und Branding nach der Übernahme aktuell prüfen",
+        "Kanal- und Plattformunterstützung verifizieren",
+        "Automatisierte Entscheidungen überwachen"
+      ],
+      "sources": [
+        [
+          "Zendesk – Forethought AI agents announcement",
+          "https://support.zendesk.com/hc/en-us/articles/10850639885082-Announcing-Forethought-AI-agents-by-Zendesk-for-customers"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0041",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "Zendesk / Forethought",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Customer Service Agents",
+        "use_cases": [
+          "Support-Automation",
+          "Intent-Erkennung",
+          "Agent Assist",
+          "Service-Insights"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "HubSpot Breeze Customer Agent",
+      "slug": "hubspot-breeze-customer-agent",
+      "provider": "HubSpot",
+      "category": "service-sales",
+      "category_name": "Kundenservice",
+      "type": "Customer Service Agent",
+      "audience_short": "Unternehmen",
+      "summary": "HubSpot-Agent für Kundenkommunikation, der vorhandene Inhalte nutzt, Fragen beantwortet und an Menschen übergeben kann.",
+      "access": "HubSpot Breeze; Produktzugang und Credits/Plan prüfen",
+      "uses": [
+        "Website-Support",
+        "FAQ",
+        "Customer Service",
+        "Lead- und Servicekommunikation"
+      ],
+      "strengths": [
+        "Direkte HubSpot-Integration",
+        "Nutzt bestehende Inhalte",
+        "Handover möglich",
+        "Kontext und Ton konfigurierbar"
+      ],
+      "checks": [
+        "Wissensquellen aktuell halten",
+        "Handover-Regeln testen",
+        "Kunden- und CRM-Datenzugriff prüfen"
+      ],
+      "sources": [
+        [
+          "HubSpot Marketplace – Customer Agent",
+          "https://ecosystem.hubspot.com/marketplace/listing/customer-agent"
+        ],
+        [
+          "HubSpot Knowledge Base – Customer Agent",
+          "https://knowledge.hubspot.com/de/customer-agent/set-up-the-customer-agent"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0042",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "HubSpot",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Customer Service Agent",
+        "use_cases": [
+          "Website-Support",
+          "FAQ",
+          "Customer Service",
+          "Lead- und Servicekommunikation"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Sierra Agent",
+      "slug": "sierra-agent",
+      "provider": "Sierra",
+      "category": "service-sales",
+      "category_name": "Kundenservice",
+      "type": "Customer Experience Agent",
+      "audience_short": "Unternehmen",
+      "summary": "Enterprise-Customer-Experience-Agent von Sierra für dialogbasierte Kundeninteraktion und action-orientierte Serviceprozesse.",
+      "access": "Sierra; Enterprise-Angebot",
+      "uses": [
+        "Customer Experience",
+        "Support",
+        "Kundenaktionen",
+        "Serviceautomatisierung"
+      ],
+      "strengths": [
+        "Customer-Experience-Fokus",
+        "Action-orientierte Agenten",
+        "Marken- und Richtlinienkontext",
+        "Enterprise-Ausrichtung"
+      ],
+      "checks": [
+        "Erlaubte Kundenaktionen klar definieren",
+        "Policy- und Markenvorgaben testen",
+        "Integrationen und Datenschutz vor Rollout prüfen"
+      ],
+      "sources": [
+        [
+          "Sierra – Official Site",
+          "https://sierra.ai/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0043",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "Sierra",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Customer Experience Agent",
+        "use_cases": [
+          "Customer Experience",
+          "Support",
+          "Kundenaktionen",
+          "Serviceautomatisierung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Gorgias AI Agent",
+      "slug": "gorgias-ai-agent",
+      "provider": "Gorgias",
+      "category": "service-sales",
+      "category_name": "E-Commerce Service",
+      "type": "E-Commerce Customer Agent",
+      "audience_short": "Unternehmen",
+      "summary": "E-Commerce-Agent für Support und Shopping-Unterstützung mit Shopdaten, Richtlinien und Kundenaktionen.",
+      "access": "Gorgias AI Agent; kommerzielles Angebot",
+      "uses": [
+        "Shop-Support",
+        "Bestellfragen",
+        "Shopping Assistance",
+        "E-Commerce-Service"
+      ],
+      "strengths": [
+        "E-Commerce-Spezialisierung",
+        "Shopify-nahe Workflows",
+        "Support plus Verkaufsassistenz",
+        "Viele Integrationen"
+      ],
+      "checks": [
+        "Bestellaktionen und Rückerstattungen mit Limits versehen",
+        "Shopdatenrechte kontrollieren",
+        "Markenrichtlinien testen"
+      ],
+      "sources": [
+        [
+          "Gorgias – AI Agent",
+          "https://www.gorgias.com/ai-agent"
+        ],
+        [
+          "Gorgias Docs – AI Agent Explained",
+          "https://docs.gorgias.com/en-US/ai-agent-explained-497772"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0044",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "Gorgias",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "E-Commerce Customer Agent",
+        "use_cases": [
+          "Shop-Support",
+          "Bestellfragen",
+          "Shopping Assistance",
+          "E-Commerce-Service"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "HubSpot Breeze Prospecting Agent",
+      "slug": "hubspot-breeze-prospecting-agent",
+      "provider": "HubSpot",
+      "category": "service-sales",
+      "category_name": "Sales",
+      "type": "Prospecting Agent",
+      "audience_short": "Unternehmen",
+      "summary": "HubSpot-Sales-Agent für Prospect Research, Kaufsignale und personalisierte Ansprache potenzieller Kunden.",
+      "access": "HubSpot Breeze; Produktzugang/Plan prüfen",
+      "uses": [
+        "Prospecting",
+        "Lead Research",
+        "Sales Outreach",
+        "Account Priorisierung"
+      ],
+      "strengths": [
+        "Direkter CRM-Kontext",
+        "Research und Outreach verbunden",
+        "HubSpot-Signale",
+        "Für Sales-Teams gedacht"
+      ],
+      "checks": [
+        "Automatische E-Mails mit Compliance-Regeln absichern",
+        "Datenquellen und Kontaktdatenqualität prüfen",
+        "Outreach menschlich kontrollieren"
+      ],
+      "sources": [
+        [
+          "HubSpot Marketplace – Prospecting Agent",
+          "https://ecosystem.hubspot.com/marketplace/listing/prospecting-agent"
+        ],
+        [
+          "HubSpot Knowledge Base – Prospecting Agent",
+          "https://knowledge.hubspot.com/de/prospecting/use-the-prospecting-agent"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0045",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "HubSpot",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Prospecting Agent",
+        "use_cases": [
+          "Prospecting",
+          "Lead Research",
+          "Sales Outreach",
+          "Account Priorisierung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Salesforce Prospecting Agent",
+      "slug": "salesforce-prospecting-agent",
+      "provider": "Salesforce",
+      "category": "service-sales",
+      "category_name": "Sales",
+      "type": "Prospecting Agent",
+      "audience_short": "Unternehmen",
+      "summary": "Salesforce-Agent für priorisierte Prospect-Recherche, Kaufsignale und vorbereitete Vertriebsansprache.",
+      "access": "Salesforce Sales/Agentforce; Produktverfügbarkeit prüfen",
+      "uses": [
+        "Account Research",
+        "Lead Priorisierung",
+        "Sales Outreach",
+        "Meeting-Vorbereitung"
+      ],
+      "strengths": [
+        "Salesforce-CRM-Kontext",
+        "Signalbasierte Priorisierung",
+        "Research plus Nachrichtenvorbereitung",
+        "Für Sales-Workflows"
+      ],
+      "checks": [
+        "Externe Datenlizenzen prüfen",
+        "Automatisierte Ansprache freigeben",
+        "DSGVO und Werberecht im Outreach beachten"
+      ],
+      "sources": [
+        [
+          "Salesforce – Sales product release",
+          "https://www.salesforce.com/blog/sales/sales-cloud-product-release/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0046",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "Salesforce",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Prospecting Agent",
+        "use_cases": [
+          "Account Research",
+          "Lead Priorisierung",
+          "Sales Outreach",
+          "Meeting-Vorbereitung"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "HubSpot Data Agent",
+      "slug": "hubspot-data-agent",
+      "provider": "HubSpot",
+      "category": "service-sales",
+      "category_name": "Daten",
+      "type": "CRM Data Agent",
+      "audience_short": "Unternehmen",
+      "summary": "HubSpot-Agent zum Recherchieren, Ergänzen und Strukturieren von CRM-Daten aus Web und bereitgestellten Dokumenten.",
+      "access": "HubSpot Breeze/Data Agent; Plan und Credits prüfen",
+      "uses": [
+        "CRM-Enrichment",
+        "Datenrecherche",
+        "Smart Properties",
+        "Datenqualität"
+      ],
+      "strengths": [
+        "Direkt im HubSpot-Datenmodell",
+        "Web und Dokumente",
+        "Strukturierte CRM-Ergebnisse",
+        "Reduziert manuelle Recherche"
+      ],
+      "checks": [
+        "Automatisch ergänzte Daten stichprobenartig prüfen",
+        "Quellen und Aktualität dokumentieren",
+        "Personenbezogene Daten nur rechtmäßig verarbeiten"
+      ],
+      "sources": [
+        [
+          "HubSpot Marketplace – Data Agent",
+          "https://ecosystem.hubspot.com/marketplace/listing/data-agent"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0047",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "HubSpot",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "CRM Data Agent",
+        "use_cases": [
+          "CRM-Enrichment",
+          "Datenrecherche",
+          "Smart Properties",
+          "Datenqualität"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "HubSpot Company Research Agent",
+      "slug": "hubspot-company-research-agent",
+      "provider": "HubSpot",
+      "category": "service-sales",
+      "category_name": "Sales Research",
+      "type": "Company Research Agent",
+      "audience_short": "Unternehmen",
+      "summary": "HubSpot-Agent für Unternehmensrecherche und Hintergrundinformationen vor Vertriebs- oder Kundenansprache.",
+      "access": "HubSpot Breeze; Produktzugang prüfen",
+      "uses": [
+        "Account Research",
+        "Sales Preparation",
+        "Company Intelligence",
+        "CRM-Kontext"
+      ],
+      "strengths": [
+        "Unternehmensrecherche direkt im HubSpot-Kontext",
+        "Vorbereitung von Sales-Gesprächen",
+        "Reduziert manuelle Recherche",
+        "CRM-nahe Ergebnisse"
+      ],
+      "checks": [
+        "Unternehmensdaten auf Aktualität prüfen",
+        "Recherche nicht mit Due Diligence gleichsetzen",
+        "Personenbezogene Informationen sparsam verwenden"
+      ],
+      "sources": [
+        [
+          "HubSpot Marketplace – Company Research Agent",
+          "https://ecosystem.hubspot.com/marketplace/listing/company-research-agent"
+        ],
+        [
+          "HubSpot Marketplace – Breeze Agents",
+          "https://ecosystem.hubspot.com/de/marketplace/breeze-agents/all"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0048",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "service-sales",
+        "provider": "HubSpot",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Company Research Agent",
+        "use_cases": [
+          "Account Research",
+          "Sales Preparation",
+          "Company Intelligence",
+          "CRM-Kontext"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "Harvey Agents",
+      "slug": "harvey-agents",
+      "provider": "Harvey",
+      "category": "recht",
+      "category_name": "Recht & Professional Services",
+      "type": "Professional Services Agents",
+      "audience_short": "Unternehmen & Kanzleien",
+      "summary": "Agentische KI von Harvey für juristische und professionelle Wissensarbeit mit Quellen, Kontext und überprüfbaren Arbeitsergebnissen.",
+      "access": "Harvey Platform; Enterprise/Professional Services",
+      "uses": [
+        "Legal Research",
+        "Dokumentenanalyse",
+        "Drafting",
+        "Professional Services"
+      ],
+      "strengths": [
+        "Juristischer und professioneller Fokus",
+        "Quellenorientierte Ergebnisse",
+        "Unternehmenskontext",
+        "Für reviewpflichtige Wissensarbeit"
+      ],
+      "checks": [
+        "Keine Rechtsberatung ohne qualifizierte menschliche Prüfung",
+        "Mandats- und Vertraulichkeitsregeln beachten",
+        "Jurisdiktion und Quellenstand verifizieren"
+      ],
+      "sources": [
+        [
+          "Harvey – Platform",
+          "https://www.harvey.ai/platform"
+        ],
+        [
+          "Harvey – Official Site",
+          "https://www.harvey.ai/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0049",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recht",
+        "provider": "Harvey",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Professional Services Agents",
+        "use_cases": [
+          "Legal Research",
+          "Dokumentenanalyse",
+          "Drafting",
+          "Professional Services"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "CoCounsel Legal",
+      "slug": "cocounsel-legal",
+      "provider": "Thomson Reuters",
+      "category": "recht",
+      "category_name": "Recht & Professional Services",
+      "type": "Legal AI Agent",
+      "audience_short": "Kanzleien & Rechtsabteilungen",
+      "summary": "Agentische Rechts-KI von Thomson Reuters für Recherche, Analyse und Entwurf auf Basis professioneller Rechtsquellen und Organisationswissen.",
+      "access": "Thomson Reuters CoCounsel Legal; professionelles Angebot",
+      "uses": [
+        "Legal Research",
+        "Case Analysis",
+        "Drafting",
+        "Rechtsabteilungsarbeit"
+      ],
+      "strengths": [
+        "Anbindung an professionelle Thomson-Reuters-Rechtsquellen",
+        "Agentischer Mehrschrittprozess",
+        "Zitierbare Ergebnisse",
+        "Für juristische Workflows gebaut"
+      ],
+      "checks": [
+        "Ergebnisse durch qualifizierte Juristen prüfen",
+        "Jurisdiktion und Aktualität der Quellen bestätigen",
+        "Vertrauliche Mandatsdaten nach Organisationsrichtlinien behandeln"
+      ],
+      "sources": [
+        [
+          "Thomson Reuters – CoCounsel Legal",
+          "https://legal.thomsonreuters.com/en/products/cocounsel-legal"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0050",
+      "source_status": "primary_sources_documented",
+      "source_count": 1,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "recht",
+        "provider": "Thomson Reuters",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Legal AI Agent",
+        "use_cases": [
+          "Legal Research",
+          "Case Analysis",
+          "Drafting",
+          "Rechtsabteilungsarbeit"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "schema_upgrade",
+          "change": "Profil auf Agenten-Passport v2 umgestellt; Quellenstatus, Prüfdatum, Changelog und Filterdaten ergänzt."
+        }
+      ]
+    },
+    {
+      "name": "ChatGPT Work",
+      "slug": "chatgpt-work",
+      "provider": "OpenAI",
+      "category": "unternehmen",
+      "category_name": "Enterprise & Produktivität",
+      "type": "Allgemeiner Arbeitsagent",
+      "audience_short": "Privat, Professionals & Unternehmen",
+      "summary": "Agent in ChatGPT für längere, mehrstufige Arbeitsaufgaben, der Kontext aus Dateien und verbundenen Tools zusammenführt und fertige Dokumente, Tabellen, Präsentationen, Berichte oder Sites erstellen kann.",
+      "access": "In ChatGPT für berechtigte kostenpflichtige Tarife; Verfügbarkeit je Oberfläche und Tarif",
+      "uses": [
+        "Berichte und Präsentationen erstellen",
+        "Daten analysieren",
+        "Mehrstufige Wissensarbeit",
+        "Wiederkehrende Aufgaben und Monitoring"
+      ],
+      "strengths": [
+        "Längere mehrstufige Aufgaben",
+        "Arbeit über Dateien und verbundene Tools",
+        "Fertige Arbeitsergebnisse statt nur Antworten",
+        "Planungs- und Freigabeschritte"
+      ],
+      "checks": [
+        "Zugriffsrechte auf Plugins und Dateien begrenzen",
+        "Ergebnisse und externe Aktionen vor Freigabe prüfen",
+        "Nutzungslimits und Workspace-Regeln beachten"
+      ],
+      "how": "ChatGPT Work sammelt den für eine Aufgabe benötigten Kontext, erstellt bei komplexeren Vorhaben einen Plan und arbeitet die Aufgabe über mehrere Schritte ab. Je nach Oberfläche kann Work verbundene Tools, Dateien, Browserfunktionen und weitere freigegebene Ressourcen nutzen. Nutzer können Fortschritt verfolgen, Rückfragen beantworten, die Richtung ändern und wichtige Aktionen genehmigen.",
+      "private": "Für Einzelpersonen und Professionals eignet sich Work vor allem für umfangreiche Aufgaben, bei denen Recherche, Dateien, Analyse und ein fertiges Ergebnis zusammenkommen – etwa ein Bericht, eine Präsentation oder eine strukturierte Auswertung. Für kleine Alltagsfragen ist ein normaler Chat meist effizienter.",
+      "enterprise": "Für Unternehmen ist Work interessant, wenn freigegebene Arbeitskontexte aus Tools und Dateien zu fertigen Arbeitsergebnissen zusammengeführt werden sollen. Entscheidend sind Berechtigungen, Plugin-Governance, Datenzugriff, Freigaben und nachvollziehbare Ergebnisse.",
+      "sources": [
+        [
+          "OpenAI – ChatGPT Work für jedes Team",
+          "https://openai.com/de-DE/chatgpt-work/"
+        ],
+        [
+          "OpenAI Help – ChatGPT Arbeit und Codex",
+          "https://help.openai.com/de-de/articles/20001275-chatgpt-work-and-codex"
+        ],
+        [
+          "OpenAI – ChatGPT ist jetzt ein Partner für deine anspruchsvollste Arbeit",
+          "https://openai.com/de-DE/index/chatgpt-for-your-most-ambitious-work/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0051",
+      "source_status": "primary_sources_documented",
+      "source_count": 3,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "OpenAI",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Allgemeiner Arbeitsagent",
+        "use_cases": [
+          "Berichte und Präsentationen erstellen",
+          "Daten analysieren",
+          "Mehrstufige Wissensarbeit",
+          "Wiederkehrende Aufgaben und Monitoring"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    },
+    {
+      "name": "Manus Agent",
+      "slug": "manus-agent",
+      "provider": "Manus",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Allgemeiner autonomer Agent",
+      "audience_short": "Privat & Unternehmen",
+      "summary": "Allgemeiner KI-Agent von Manus für komplexe Aufgaben und autonome Workflows, der Aufgaben plant, mehrere Schritte ausführt und unterschiedliche Arbeitsergebnisse erzeugen kann.",
+      "access": "Manus Agent Mode; Free- und Pro-Zugang mit unterschiedlichen Modellen und Credits",
+      "uses": [
+        "Web- und Informationsaufgaben",
+        "Websites und digitale Ergebnisse erstellen",
+        "Mehrstufige Automatisierung",
+        "Arbeit mit lokalen Dateien und Tools"
+      ],
+      "strengths": [
+        "Autonome Planung komplexer Aufgaben",
+        "Breites Aufgabenspektrum",
+        "Agent API für Integrationen",
+        "Desktop-Zugriff auf autorisierte lokale Arbeitsbereiche möglich"
+      ],
+      "checks": [
+        "Credit-Verbrauch vor längeren Aufgaben berücksichtigen",
+        "Lokale Datei- und Toolrechte bewusst vergeben",
+        "Ergebnisse und ausgeführte Aktionen kontrollieren"
+      ],
+      "how": "Im Agent Mode plant Manus komplexere Aufgaben eigenständig und führt die erforderlichen Schritte nacheinander aus. Manus dokumentiert zusätzlich eine API für Agent-Aufgaben sowie Funktionen, mit denen die Desktop-App nach Freigabe lokale Dateien und Kommandozeilenwerkzeuge nutzen kann. Dadurch reicht das Spektrum von Recherche bis zu erzeugten Websites, Dateien und Automatisierungen.",
+      "private": "Für Privatpersonen kann Manus Aufgaben übernehmen, die deutlich über eine einzelne Chatantwort hinausgehen, beispielsweise umfangreiche Recherche, Reise- oder Projektvorbereitung oder das Erstellen digitaler Ergebnisse. Je mehr lokale Daten oder Accounts eingebunden werden, desto wichtiger ist eine bewusste Rechtevergabe.",
+      "enterprise": "Unternehmen können Manus über Agent-Aufgaben und API-Workflows in Prozesse einbinden. Vor produktivem Einsatz sollten Datenzugriff, Protokollierung, Kosten, Berechtigungen und die Frage geklärt werden, welche Schritte zwingend eine menschliche Freigabe benötigen.",
+      "sources": [
+        [
+          "Manus Help – Unterschiede zwischen Chat-Modus und Agent-Modus",
+          "https://help.manus.im/de/articles/11711128-was-sind-die-unterschiede-zwischen-dem-chat-modus-und-dem-agent-modus"
+        ],
+        [
+          "Manus API – Introduction",
+          "https://open.manus.im/docs/v2/introduction"
+        ],
+        [
+          "Manus Help – My Computer",
+          "https://help.manus.im/en/articles/14178443-what-is-the-my-computer-feature-capable-of"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0052",
+      "source_status": "primary_sources_documented",
+      "source_count": 3,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Manus",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Allgemeiner autonomer Agent",
+        "use_cases": [
+          "Web- und Informationsaufgaben",
+          "Websites und digitale Ergebnisse erstellen",
+          "Mehrstufige Automatisierung",
+          "Arbeit mit lokalen Dateien und Tools"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    },
+    {
+      "name": "Gemini Spark",
+      "slug": "gemini-spark",
+      "provider": "Google",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Persönlicher KI-Agent (Beta)",
+      "audience_short": "Privat & Professionals",
+      "summary": "Persönlicher KI-Agent in der Gemini-Umgebung für länger laufende, mehrstufige Aufgaben im Hintergrund mit Integration in Google-Tools und perspektivisch Drittanbieter-Tools über MCP.",
+      "access": "Beta-Rollout; zunächst für ausgewählte Tester und Google AI Ultra in den USA angekündigt",
+      "uses": [
+        "Länger laufende persönliche Aufgaben",
+        "Informations- und Organisationsarbeit",
+        "Aufgaben über Google-Tools hinweg",
+        "Proaktive Hintergrundarbeit"
+      ],
+      "strengths": [
+        "Hintergrundausführung auf Cloud-VMs",
+        "Mehrstufige Aufgaben mit langem Zeithorizont",
+        "Tiefe Google-Integration",
+        "MCP-Unterstützung angekündigt"
+      ],
+      "checks": [
+        "Beta-Verfügbarkeit und Region vor Nutzung prüfen",
+        "Proaktive Aktionen und verbundene Konten eng begrenzen",
+        "Neue Funktionen wegen schnellen Rollouts regelmäßig gegen Primärquellen prüfen"
+      ],
+      "how": "Google beschreibt Spark als persönlichen Agenten, der auf dedizierten virtuellen Maschinen in der Google Cloud läuft und mehrstufige Aufgaben über längere Zeiträume im Hintergrund bearbeiten kann. Spark basiert laut Google auf Gemini 3.5 und dem Antigravity-Harness und soll in Google-Tools sowie über MCP auch mit Drittanbieter-Tools arbeiten können.",
+      "private": "Für Privatpersonen ist Spark konzeptionell besonders interessant, weil Aufgaben nicht nur in einer offenen Sitzung bearbeitet werden müssen. Der Agent soll länger laufende Aufgaben übernehmen und Fortschritt melden können. Da sich Spark im Rollout befindet, sollten Verfügbarkeit und Funktionsumfang vor konkreten Planungen geprüft werden.",
+      "enterprise": "Für professionelle Nutzung kann die Verbindung zu Google-Tools interessant werden. Wegen Beta-Status und proaktiver Hintergrundausführung sollten Organisationen Berechtigungen, Datenzugriff und mögliche Aktionen besonders eng begrenzen und zunächst mit nicht sensitiven Testaufgaben arbeiten.",
+      "sources": [
+        [
+          "Google – Die Gemini-App bekommt agentische Fähigkeiten",
+          "https://blog.google/intl/de-de/produkte/suchen-entdecken/gemini-app-io-2026/"
+        ],
+        [
+          "Google – I/O 2026 Sundar Pichai Keynote",
+          "https://blog.google/intl/de-de/unternehmen/technologie/sundar-pichai-io-2026/"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0053",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Google",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Persönlicher KI-Agent (Beta)",
+        "use_cases": [
+          "Länger laufende persönliche Aufgaben",
+          "Informations- und Organisationsarbeit",
+          "Aufgaben über Google-Tools hinweg",
+          "Proaktive Hintergrundarbeit"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    },
+    {
+      "name": "Claude Cowork",
+      "slug": "claude-cowork",
+      "provider": "Anthropic",
+      "category": "unternehmen",
+      "category_name": "Enterprise & Produktivität",
+      "type": "Agentischer Arbeitsagent / integrierte Claude-Funktion",
+      "audience_short": "Privat, Professionals & Unternehmen",
+      "summary": "Agentische Arbeitsfunktion von Claude für komplexe, mehrstufige Wissensarbeit mit Dateien, Recherche, Code, Browser- und Computer-Nutzung; Cowork wird 2026 schrittweise direkt in Claude integriert.",
+      "access": "Bezahlte Claude-Pläne; Cowork-Funktionen werden schrittweise in das einheitliche Claude-Erlebnis integriert",
+      "uses": [
+        "Berichte, Tabellen und Präsentationen",
+        "Recherche mit Dateien und Web",
+        "Datei- und Computeraufgaben",
+        "Wiederkehrende geplante Aufgaben"
+      ],
+      "strengths": [
+        "Mehrstufige Wissensarbeit ohne Terminal",
+        "Cloud-Sitzungen mit fertigen Dateien",
+        "Browser- und Computer-Nutzung möglich",
+        "Integration in das allgemeine Claude-Erlebnis"
+      ],
+      "checks": [
+        "Aktuellen Rollout-Status des einheitlichen Claude-Erlebnisses beachten",
+        "Datei-, Browser- und Computerrechte minimal halten",
+        "Prompt-Injection- und Aktionsrisiken bei Webzugriff berücksichtigen"
+      ],
+      "how": "Cowork bringt die agentische Architektur von Claude Code auf allgemeine Wissensarbeit. Claude kann komplexe Aufgaben über mehrere Schritte bearbeiten, Web und Dateien nutzen, Code ausführen und fertige Dokumente, Tabellen oder Präsentationen zurückgeben. Anthropic integriert diese Cowork-Fähigkeiten im September 2026 schrittweise in normale Claude-Gespräche, sodass Nutzer nicht mehr zwingend einen separaten Modus auswählen müssen.",
+      "private": "Für Professionals und anspruchsvolle Privatnutzung eignet sich Claude Cowork beziehungsweise das neue integrierte Claude-Erlebnis für Aufgaben, bei denen mehrere Dateien, Recherche und ein fertiges Arbeitsergebnis zusammenkommen. Zugriff auf lokale Dateien oder Computerfunktionen sollte nur für die tatsächlich benötigten Bereiche erteilt werden.",
+      "enterprise": "Unternehmen können agentische Wissensarbeit mit Projekten, Connectors und Computer-/Browser-Funktionen verbinden. Anthropic weist selbst auf zusätzliche Sicherheitsrisiken durch weitreichenden Zugriff hin; Pilotgruppen, minimale Rechte und klare Freigaben sind deshalb besonders wichtig.",
+      "sources": [
+        [
+          "Anthropic Help – Erste Schritte mit Claude Cowork",
+          "https://support.claude.com/de/articles/13345190-erste-schritte-mit-claude-cowork"
+        ],
+        [
+          "Anthropic Help – Claude Cowork und Chat sind ein Claude",
+          "https://support.claude.com/de/articles/16761823-claude-cowork-und-chat-sind-ein-claude"
+        ],
+        [
+          "Anthropic Help – Claude Cowork sicher nutzen",
+          "https://support.claude.com/de/articles/13364135-claude-cowork-sicher-nutzen"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0054",
+      "source_status": "primary_sources_documented",
+      "source_count": 3,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Anthropic",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Agentischer Arbeitsagent / integrierte Claude-Funktion",
+        "use_cases": [
+          "Berichte, Tabellen und Präsentationen",
+          "Recherche mit Dateien und Web",
+          "Datei- und Computeraufgaben",
+          "Wiederkehrende geplante Aufgaben"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    },
+    {
+      "name": "Perplexity Comet Assistant",
+      "slug": "perplexity-comet-assistant",
+      "provider": "Perplexity",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Browser-Agent / persönlicher Assistent",
+      "audience_short": "Privat & Professionals",
+      "summary": "Agentischer Assistent im Comet-Browser von Perplexity, der Webseiten verstehen, über Tabs hinweg arbeiten und Webaufgaben wie Recherche, Planung, Einkauf oder Organisation ausführen kann.",
+      "access": "In Perplexity Comet; Funktionsumfang und Verfügbarkeit abhängig von aktueller Comet-Version und Plan",
+      "uses": [
+        "Webrecherche und Vergleiche",
+        "Reise- und Einkaufsplanung",
+        "Aufgaben über mehrere Tabs",
+        "Browserbasierte Erledigungen"
+      ],
+      "strengths": [
+        "Direkter Browserkontext",
+        "Aktionen auf Webseiten",
+        "Längere komplexere Aufgaben möglich",
+        "Recherche und Ausführung in einer Oberfläche"
+      ],
+      "checks": [
+        "Aktionen auf eingeloggten Webseiten kontrollieren",
+        "Einkäufe und verbindliche Eingaben vor Abschluss prüfen",
+        "Browserdaten und verbundene Konten bewusst freigeben"
+      ],
+      "how": "Comet kombiniert Browser und KI-Assistent. Perplexity beschreibt den Comet Assistant als agentenbasierte KI, die Fragen im Kontext der aktuellen Webseiten beantworten und Aufgaben ausführen kann. Die neuere Generation ist darauf ausgelegt, länger und über komplexere Aufgaben hinweg zu arbeiten und Webumgebungen besser wahrzunehmen und zu bedienen.",
+      "private": "Für Privatpersonen ist Comet besonders bei Aufgaben interessant, die ohnehin im Browser stattfinden: Reiseplanung, Produktrecherche, Jobsuche oder das Abarbeiten mehrerer Webseiten. Bei Einkäufen, Buchungen und Kontozugriffen sollte der Nutzer die entscheidenden Schritte selbst kontrollieren.",
+      "enterprise": "Professionals können Comet für webzentrierte Recherche und Arbeitsabläufe einsetzen. Unternehmen sollten vor breiter Nutzung klären, welche Webseiten, Sitzungen und Daten der Browser-Agent sehen darf und wie vertrauliche Inhalte geschützt werden.",
+      "sources": [
+        [
+          "Perplexity – Der neue Comet Assistant",
+          "https://www.perplexity.ai/de/hub/blog/the-new-comet-assistant"
+        ],
+        [
+          "Perplexity – Comet Browser",
+          "https://www.perplexity.ai/comet/de"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0055",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Perplexity",
+        "audience": [
+          "privatpersonen",
+          "unternehmen"
+        ],
+        "product_type": "Browser-Agent / persönlicher Assistent",
+        "use_cases": [
+          "Webrecherche und Vergleiche",
+          "Reise- und Einkaufsplanung",
+          "Aufgaben über mehrere Tabs",
+          "Browserbasierte Erledigungen"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    },
+    {
+      "name": "Browser Use Agent",
+      "slug": "browser-use-agent",
+      "provider": "Browser Use",
+      "category": "automatisierung",
+      "category_name": "Automatisierung",
+      "type": "Browser-Agent API",
+      "audience_short": "Entwickler & Unternehmen",
+      "summary": "Browser-Agent von Browser Use für Webaufgaben über eine API, der Cloud-Browser steuern, Daten extrahieren und komplexe mehrstufige Browser-Workflows ausführen kann.",
+      "access": "Browser Use Agent API / SDK; nutzungsbasierter Cloud-Service",
+      "uses": [
+        "Webdaten extrahieren",
+        "Browserbasierte Prozessautomation",
+        "Recherche über Webseiten",
+        "Strukturierte Webaufgaben über API"
+      ],
+      "strengths": [
+        "API- und SDK-zentrierter Browser-Agent",
+        "Cloud-Browser mit strukturierter Ausgabe",
+        "Mehrstufige Web-Workflows",
+        "Profile, Sessions und Dateien integrierbar"
+      ],
+      "checks": [
+        "Website-Nutzungsbedingungen und Automationsregeln beachten",
+        "Login-Profile und Cookies besonders schützen",
+        "Fehlerfälle, Captchas und irreversible Aktionen abfangen"
+      ],
+      "how": "Browser Use stellt einen Browser-Agenten über API und SDK bereit. Eine Aufgabe wird in natürlicher Sprache übergeben; der Agent arbeitet anschließend in einem Cloud-Browser und kann Text oder strukturierte JSON-Ergebnisse zurückgeben. Laut Anbieter umfasst die Plattform unter anderem Sessions, Browserprofile, Streaming, Dateien und weitere Werkzeuge für komplexe Webabläufe.",
+      "private": "Für normale Privatnutzer ist Browser Use weniger als fertiger Assistent gedacht, sondern eher als technische Infrastruktur. Für technisch versierte Nutzer kann es interessant sein, wenn eigene Automationen oder kleine Anwendungen einen Browser-Agenten benötigen.",
+      "enterprise": "Für Unternehmen und Entwickler eignet sich Browser Use als Baustein für kontrollierte Webautomatisierung. Besonders wichtig sind Session-Isolation, sichere Login-Profile, Rate Limits, Website-Regeln, Logging und klare Grenzen für schreibende oder irreversible Aktionen.",
+      "sources": [
+        [
+          "Browser Use – Web Agent API",
+          "https://browser-use.com/web-agent-api"
+        ],
+        [
+          "Browser Use – Changelog / Agent API",
+          "https://browser-use.com/changelog"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0056",
+      "source_status": "primary_sources_documented",
+      "source_count": 2,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "automatisierung",
+        "provider": "Browser Use",
+        "audience": [
+          "unternehmen",
+          "entwickler"
+        ],
+        "product_type": "Browser-Agent API",
+        "use_cases": [
+          "Webdaten extrahieren",
+          "Browserbasierte Prozessautomation",
+          "Recherche über Webseiten",
+          "Strukturierte Webaufgaben über API"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    },
+    {
+      "name": "Dust Agents",
+      "slug": "dust-agents",
+      "provider": "Dust",
+      "category": "unternehmen",
+      "category_name": "Enterprise & Produktivität",
+      "type": "Enterprise Agent Platform",
+      "audience_short": "Unternehmen & Teams",
+      "summary": "Enterprise-Plattform von Dust zum Erstellen und Betreiben spezialisierter KI-Agenten, die Unternehmenswissen, Skills, Tools und automatisierte Trigger kombinieren können.",
+      "access": "Dust Workspace / kommerzielle Enterprise-Plattform",
+      "uses": [
+        "Unternehmenswissen durchsuchen",
+        "Marketing- und Content-Operationen",
+        "Daten- und Analyseaufgaben",
+        "Automatisierte agentische Workflows"
+      ],
+      "strengths": [
+        "Spezialisierte Agenten für Teams",
+        "Agent Builder mit Skills und Tools",
+        "Trigger für automatisierte Ausführung",
+        "Anbindung an Unternehmenswissen"
+      ],
+      "checks": [
+        "Datenquellen und Workspace-Rechte sauber segmentieren",
+        "Trigger und automatisierte Aktionen überwachen",
+        "Agentenanweisungen und Skills versionieren und testen"
+      ],
+      "how": "Dust ist eine Plattform für Teams, die eigene Agenten konfigurieren und im Arbeitskontext einsetzen möchten. Agenten können auf freigegebene Wissensräume und Datenquellen zugreifen, Skills verwenden und über Trigger automatisiert gestartet werden. Der Agent Builder unterstützt Teams beim Definieren der Aufgaben und Werkzeuge eines Agenten.",
+      "private": "Dust richtet sich primär an Teams und Unternehmen und ist deshalb für typische private Alltagsaufgaben weniger relevant. Einzelne Konzepte wie spezialisierte Agenten, Skills und Trigger sind jedoch gute Beispiele dafür, wie agentische Systeme im Arbeitskontext strukturiert werden.",
+      "enterprise": "Für Unternehmen liegt der Schwerpunkt auf gemeinsam genutzten Agenten, Unternehmenswissen und wiederholbaren Arbeitsabläufen. Governance sollte festlegen, welche Agenten welche Datenräume, Skills und Trigger nutzen dürfen und wie Änderungen getestet sowie nachvollzogen werden.",
+      "sources": [
+        [
+          "Dust – Multiplayer AI for human-agent collaboration",
+          "https://dust.tt/"
+        ],
+        [
+          "Dust Docs – Create Triggers on Any Agent",
+          "https://docs.dust.tt/changelog/create-triggers-on-any-agent-you-can-talk-to"
+        ],
+        [
+          "Dust Docs – Sidekick for Agent Builder",
+          "https://docs.dust.tt/changelog/introducing-sidekick-your-ai-assistant-for-building-better-agents"
+        ]
+      ],
+      "profile_depth": "reference",
+      "last_verified": "2026-09-28",
+      "passport_version": "2.0",
+      "profile_id": "AI-0057",
+      "source_status": "primary_sources_documented",
+      "source_count": 3,
+      "verification_status": "editorially_reviewed",
+      "filters": {
+        "category": "unternehmen",
+        "provider": "Dust",
+        "audience": [
+          "unternehmen"
+        ],
+        "product_type": "Enterprise Agent Platform",
+        "use_cases": [
+          "Unternehmenswissen durchsuchen",
+          "Marketing- und Content-Operationen",
+          "Daten- und Analyseaufgaben",
+          "Automatisierte agentische Workflows"
+        ],
+        "source_status": "primary_sources_documented",
+        "verification_status": "editorially_reviewed",
+        "profile_depth": "reference",
+        "last_verified": "2026-09-28"
+      },
+      "changelog": [
+        {
+          "date": "2026-09-28",
+          "type": "initial",
+          "change": "Neuaufnahme mit Agenten-Passport v2, Primärquellen, Prüfdatum und Filterdaten."
+        }
+      ]
+    }
+  ],
+  "passport_schema_version": "2.0"
+}

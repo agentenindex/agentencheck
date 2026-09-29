@@ -1,7 +1,6 @@
 (() => {
   const $ = (s, ctx=document) => ctx.querySelector(s);
   const $$ = (s, ctx=document) => [...ctx.querySelectorAll(s)];
-  const storeKey = 'agentenindex-check-v1';
   let currentStep = 0;
   let agents = [];
 
@@ -19,34 +18,9 @@
   const label = (x) => x ? x.charAt(0).toUpperCase()+x.slice(1) : '';
   const euro = (x) => new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(x||0);
 
-  function save(){
-    const data={};
-    $$('#assessmentForm input, #assessmentForm select, #assessmentForm textarea').forEach(el=>{
-      if(el.type==='checkbox') {
-        data[el.name]=data[el.name]||[];
-        if(el.checked) data[el.name].push(el.value);
-      } else if(el.type==='radio') {
-        if(el.checked) data[el.name]=el.value;
-      } else data[el.name]=el.value;
-    });
-    localStorage.setItem(storeKey, JSON.stringify(data));
-  }
-  function restore(){
-    try{
-      const data=JSON.parse(localStorage.getItem(storeKey)||'{}');
-      Object.entries(data).forEach(([name,v])=>{
-        if(Array.isArray(v)) v.forEach(x=>{const el=document.querySelector(`[name="${name}"][value="${CSS.escape(x)}"]`); if(el) el.checked=true;});
-        else {
-          const radios=$$(`[name="${name}"]`);
-          if(radios.some(x=>x.type==='radio')) {const el=document.querySelector(`[name="${name}"][value="${CSS.escape(v)}"]`);if(el)el.checked=true;}
-          else {const el=document.querySelector(`[name="${name}"]`);if(el)el.value=v;}
-        }
-      });
-    }catch(e){}
-  }
   function resetAll(){
-    if(!confirm('Lokale Eingaben und Ergebnis dieses Checks löschen?')) return;
-    localStorage.removeItem(storeKey); location.reload();
+    if(!confirm('Aktuelle Eingaben und Ergebnis dieses Checks löschen?')) return;
+    location.reload();
   }
 
   function setStep(n){
@@ -263,7 +237,6 @@
     } else $('#agentMatches').innerHTML='<p style="color:#66758c">Für diese Prozessklassifikation wird in v1 kein konkretes Produkt-Matching ausgegeben. Prüfen Sie die Agentenübersicht manuell.</p>';
 
     $('#resultMethodNote').textContent = s.classKey==='automation' ? 'Die Methodik bevorzugt hier bewusst klassische Automatisierung statt eines KI-Agenten.' : 'Die genannten Agenten sind keine Rangliste. Angezeigt wird nur thematische bzw. Ökosystem-Passung auf Basis dokumentierter AgentenIndex-Daten.';
-    localStorage.setItem(storeKey+'-result', JSON.stringify(s));
     window.scrollTo({top:$('#appStart').offsetTop-86,behavior:'smooth'});
   }
 
@@ -272,15 +245,13 @@
   }
 
   function init(){
-    restore(); loadAgents();
-    $$('.next-step').forEach(btn=>btn.addEventListener('click',()=>{if(validateStep(currentStep)){save();setStep(currentStep+1);}}));
+    loadAgents();
+    $$('.next-step').forEach(btn=>btn.addEventListener('click',()=>{if(validateStep(currentStep)){setStep(currentStep+1);}}));
     $$('.prev-step').forEach(btn=>btn.addEventListener('click',()=>setStep(currentStep-1)));
     $('#showResults').addEventListener('click',()=>{if(validateStep(currentStep))renderResults();});
     $('#resetCheck').addEventListener('click',resetAll);
     $('#resetResult').addEventListener('click',resetAll);
     $('#printReport').addEventListener('click',()=>window.print());
-    $('#assessmentForm').addEventListener('change',save);
-    $('#assessmentForm').addEventListener('input',e=>{if(e.target.matches('textarea,input[type="number"],input[type="text"]')) save();});
     $('#startCheck').addEventListener('click',()=>document.getElementById('appStart').scrollIntoView({behavior:'smooth'}));
     setStep(0);
   }

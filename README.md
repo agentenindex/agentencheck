@@ -12,7 +12,8 @@ Statischer MVP für `check.agentenindex.de`.
 - Business-Case-Szenarien
 - 30-Tage-Pilotplan
 - Matching mit dem AgentenIndex-Datensatz
-- lokale Verarbeitung im Browser
+- lokale Verarbeitung ausschließlich im Arbeitsspeicher des Browsers
+- keine persistente Browser-Speicherung (keine eigenen Cookies, kein Local Storage, kein Session Storage)
 - Print/PDF über Browser
 
 ## Hosting
